@@ -52,6 +52,7 @@ along the integration process :
 
 Based on the knowledge and data resources collected,follwing was the ER modelthat was created on the knowledge level which was later modified and also mapped to the refined datasets using data mapping tools.
 
+![test image](https://www.datapine.com/blog/wp-content/uploads/2016/08/data-interpretation-art.jpg)
 ![ER Model](https://github.com/alihamzaunitn/kdi-educationtrentino/blob/master/Documentation/ERmodel_formalModelingPhaseV2.png)
 
 ### ETG Model
