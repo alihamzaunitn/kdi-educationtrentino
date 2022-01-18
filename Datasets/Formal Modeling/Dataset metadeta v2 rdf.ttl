@@ -1,0 +1,123 @@
+@prefix :      <https://www.epos-eu.org/epos-dcat-ap#> .
+@prefix schema: <http://schema.org/> .
+@prefix spdx:  <http://spdx.org/rdf/terms#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix gsp:   <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hydra: <http://www.w3.org/ns/hydra/core#> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix locn:  <http://www.w3.org/ns/locn#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix epos:  <https://www.epos-eu.org/epos-dcat-ap#> .
+@prefix adms:  <http://www.w3.org/ns/adms#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix cnt:   <http://www.w3.org/2011/content#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix http:  <http://www.w3.org/2006/http#> .
+@prefix dash:  <http://datashapes.org/dash#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<https://www.epos-eu.org/epos-dcat-ap#Concept/838394c3-12f8-46e5-900a-90179b2d8406>
+        rdf:type         skos:Concept ;
+        skos:definition  "3211 teaching\r\n3206 education\r\n3216 school organization" ;
+        skos:inScheme    <https://www.epos-eu.org/epos-dcat-ap#ConceptScheme/2542c05a-8d48-4359-bf33-27eee02148f8> ;
+        skos:prefLabel   "Education, culture and sport" .
+
+<https://www.epos-eu.org/epos-dcat-ap#Concept/8b19bf54-518e-48a1-9016-d3e600648542>
+        rdf:type  skos:Concept .
+
+<https://www.epos-eu.org/epos-dcat-ap#Organization/24b52e98-9b80-4c3e-acdd-331714c417c8>
+        rdf:type             schema:Organization ;
+        schema:contactPoint  "serv.formazione@provincia.tn.it" ;
+        schema:email         "serv.formazione@provincia.tn.it" ;
+        schema:identifier    "p_TN:90e4dd5d-f967-4a0a-854a-a8bcef48114b" ;
+        schema:legalName     "Vocational Training, Tertiary Training and System Functions Service" ;
+        schema:leiCode       "W05601" ;
+        schema:url           "http://www.vivoscuola.it/"^^xsd:anyURI .
+
+<https://www.epos-eu.org/epos-dcat-ap#Dataset/2fe3fa63-8955-4264-a5bf-3e58cc62dbc7>
+        rdf:type           dcat:Dataset ;
+        dct:description    "list of muncipilities in trento region" ;
+        dct:identifier     "N/A" ;
+        dct:language       "English" ;
+        dct:publisher      <https://www.epos-eu.org/epos-dcat-ap#Organization/102d08a9-414a-4d26-8753-bc3b9b3d440c> ;
+        dct:title          "Trentino Muncipilities" ;
+        dcat:contactPoint  "www.wikipedia.com" ;
+        dcat:distribution  <https://www.epos-eu.org/epos-dcat-ap#Distribution/1408751d-f08f-4905-8f34-7832e9ca389e> ;
+        dcat:keyword       "muncipilipies" ;
+        dcat:theme         <https://www.epos-eu.org/epos-dcat-ap#Concept/8b19bf54-518e-48a1-9016-d3e600648542> .
+
+<https://www.epos-eu.org/epos-dcat-ap#Dataset/293e60cc-acd0-4954-97ea-7a93fdee9b65>
+        rdf:type           dcat:Dataset ;
+        dct:created        "2014-09-10T02:21:10Z"^^xsd:dateTime ;
+        dct:description    "List of study courses of Trentino schools with description and status of activity. For greater clarity, a document describing the elements and attributes present in the XML file has been inserted" ;
+        dct:identifier     "p_TN:90e4dd5d-f967-4a0a-854a-a8bcef48114b" ;
+        dct:language       "italiano" ;
+        dct:modified       "2014-09-10T02:21:10Z"^^xsd:dateTime ;
+        dct:publisher      <https://www.epos-eu.org/epos-dcat-ap#Organization/24b52e98-9b80-4c3e-acdd-331714c417c8> ;
+        dct:title          "Study courses of the Trentino schools" ;
+        dcat:contactPoint  "serv.formazione@provincia.tn.it" ;
+        dcat:distribution  <https://www.epos-eu.org/epos-dcat-ap#Distribution/4461ca4c-2ce1-4bc3-ab9e-fcd6f07bedaa> ;
+        dcat:keyword       "education" , "teaching" , "school organization" ;
+        dcat:landingPage   "https://dati.trentino.it/dataset/corsi-di-studio-delle-scuole-trentine" ;
+        dcat:theme         <https://www.epos-eu.org/epos-dcat-ap#Concept/838394c3-12f8-46e5-900a-90179b2d8406> .
+
+<https://www.epos-eu.org/epos-dcat-ap#Organization/56f8df81-efde-4831-9fef-648278682790>
+        rdf:type             schema:Organization ;
+        schema:contactPoint  "serv.formazione@provincia.tn.it" ;
+        schema:email         "serv.formazione@provincia.tn.it" ;
+        schema:identifier    "p_TN:90e4dd5d-f967-4a0a-854a-a8bcef48114b" ;
+        schema:legalName     "Vocational Training, Tertiary Training and System Functions Service" ;
+        schema:leiCode       "W05601" ;
+        schema:url           "https://aprilascuola.provincia.tn.it/sei/#/"^^xsd:anyURI .
+
+<https://www.epos-eu.org/epos-dcat-ap#Distribution/1408751d-f08f-4905-8f34-7832e9ca389e>
+        rdf:type         dcat:Distribution ;
+        dct:conformsTo   "n/a" ;
+        dct:description  "n/a" ;
+        dct:format       "n/a" ;
+        dct:identifier   "n/a" ;
+        dct:type         "n/a"^^xsd:anyURI ;
+        dcat:accessURL   "n/a" .
+
+<https://www.epos-eu.org/epos-dcat-ap#ConceptScheme/2542c05a-8d48-4359-bf33-27eee02148f8>
+        rdf:type         skos:ConceptScheme ;
+        dct:description  "3211 teaching\r\n3206 education\r\n3216 school organization" ;
+        dct:title        "Education, culture and sport\r\n" .
+
+<https://www.epos-eu.org/epos-dcat-ap#Distribution/4461ca4c-2ce1-4bc3-ab9e-fcd6f07bedaa>
+        rdf:type         dcat:Distribution ;
+        dct:conformsTo   "n/a" ;
+        dct:description  "n/a" ;
+        dct:format       "n/a" ;
+        dct:identifier   "n/a" ;
+        dct:type         "n/a"^^xsd:anyURI ;
+        dcat:accessURL   "n/a" .
+
+<https://www.epos-eu.org/epos-dcat-ap#Dataset/9e536e07-7ad0-44a0-847d-496b6d1678e7>
+        rdf:type           dcat:Dataset ;
+        dct:created        "2014-09-10T02:21:10Z"^^xsd:dateTime ;
+        dct:description    "List of educational institutions in Trentino, with information such as: Type of institution, Site, training offer, ID" ;
+        dct:identifier     "p_TN: 653ca277-0643-4834-badc-dc27ecc8e99e" ;
+        dct:language       "italiano" ;
+        dct:modified       "2014-09-10T02:21:10Z"^^xsd:dateTime ;
+        dct:publisher      <https://www.epos-eu.org/epos-dcat-ap#Organization/56f8df81-efde-4831-9fef-648278682790> ;
+        dct:title          "Trentino educational institutions" ;
+        dcat:contactPoint  "serv.formazione@provincia.tn.it" ;
+        dcat:distribution  <https://www.epos-eu.org/epos-dcat-ap#Distribution/4461ca4c-2ce1-4bc3-ab9e-fcd6f07bedaa> ;
+        dcat:keyword       "teaching" , "school organization" , "education" ;
+        dcat:landingPage   "https://dati.trentino.it/dataset/istituzioni-scolastiche-trentino" ;
+        dcat:theme         <https://www.epos-eu.org/epos-dcat-ap#Concept/838394c3-12f8-46e5-900a-90179b2d8406> .
+
+<https://www.epos-eu.org/epos-dcat-ap#Organization/102d08a9-414a-4d26-8753-bc3b9b3d440c>
+        rdf:type           schema:Organization ;
+        schema:identifier  "n/a" ;
+        schema:legalName   "Wikipedia" ;
+        schema:leiCode     "n/a" .

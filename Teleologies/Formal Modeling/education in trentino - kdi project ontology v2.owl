@@ -1,0 +1,2404 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="etype" IRI="http://knowdive.disi.unitn.it/etype#"/>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Action_kind_GID-120018"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:ComplexType"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Computer_file_GID-34892"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Context_GID-120016"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Creation_GID-16921"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Duration_GID-80582"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Event_GID-138"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Function_kind_GID-120019"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:IdentifyingSet"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Itelos_action_GID-200003"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Itelos_complextype_GID-200002"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Itelos_concept_GID-200014"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Itelos_consumer_GID-200005"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Itelos_function_GID-200004"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Itelos_identifyingset_GID-200012"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Itelos_living_GID-200009"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Itelos_nlstring_GID-200007"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Itelos_nonliving_GID-200010"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Itelos_object_GID-200008"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Itelos_producer_GID-200006"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Itelos_semanticstring_GID-200011"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Living_being_GID-120021"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Location_GID-132"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Metadata_GID-45663"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Moment_GID-81213"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:NLString"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Name_GID-2"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Organization_GID-43544"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Person_GID-118"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Person_name_GID-117693"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Real_kind_GID-120017"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:SemanticString"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:Structure_GID-24069"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="etype:concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Comune"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Director"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Educational_Institute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#NonLiving_being"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#School"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Student"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#StudyCourse"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="xsd:long"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:GID"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:hasIdProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:hasIdentifyingSet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_action_property_GID-120036_Type-120018"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_beginning_GID-81324_Type-1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_beginning_GID-81324_Type-200008"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_biological_property_GID-120034_Type-120021"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_birthday_GID-81257_Type-118"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_birthplace_GID-45896_Type-118"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_birthplace_GID-45897_Type-45663"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_class_GID-43482_Type-1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_class_GID-43482_Type-200008"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_context_property_GID-120032_Type-120016"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_contributor_GID-53267_Type-16921"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_creator_GID-51275_Type-16921"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_creator_GID-51275_Type-34892"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_date_of_death_GID-118224_Type-118"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_date_of_publication_GID-117691_Type-34892"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_description_GID-3_Type-1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_description_GID-3_Type-200008"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_duration_GID-80582_Type-1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_duration_GID-80582_Type-200008"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_end_GID-81330_Type-1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_end_GID-81330_Type-200008"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_first_name_GID-34006_Type-117693"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_function_property_GID-120037_Type-120019"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_actionfunction_GID-200020_Type-200003"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_actionobject_GID-200021_Type-200003"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_functionaction_GID-200022_Type-200004"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_functionobject_GID-200023_Type-200004"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_functionobject_GID-200023_Type-200008"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_objectfunction_GID-200025_Type-200008"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_objecttoobjectrelation_GID-200026_Type-200008"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_key_word_GID-33805_Type-16921"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_location_GID-132_Type-138"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_location_GID-132_Type-43544"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_maximum_GID-73238_Type-80582"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_middle_name_GID-34005_Type-117693"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_minimum_GID-73141_Type-80582"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_name_GID-2_Type-1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_object_property_GID-120033_Type-120017"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_outline_GID-34682_Type-16921"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_part_meronym_GID-22_Type-1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_part_meronym_GID-22_Type-200008"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_participant_GID-55912_Type-138"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_phase_GID-81455_Type-138"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_place_of_death_GID-118225_Type-118"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_size_GID-28114_Type-34892"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_subject_GID-35361_Type-16921"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_surname_GID-34003_Type-117693"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_time_GID-81346_Type-45663"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_title_GID-34019_Type-117693"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:has_title_GID-34045_Type-16921"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_coursesOffered"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_enrolledCourse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_enrolledInSchool"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_location"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:hasLanguage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:hasSourceString"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:hasString"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_action_property_GID-120036_Type-120018"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_beginning_GID-81324_Type-81213"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_biological_property_GID-120034_Type-120021"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_class_GID-43482_Type-1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_class_GID-43482_Type-200008"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_context_property_GID-120032_Type-120016"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_electronic_mail_GID-33745_Type-118"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_elevation_GID-28270_Type-132"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_end_GID-81330_Type-81213"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_format_GID-35579_Type-34892"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_function_property_GID-120037_Type-120019"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_home_page_GID-34125_Type-34892"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_identifier_GID-39085_Type-1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_identifier_GID-39085_Type-200008"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_latitude_GID-46263_Type-132"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_license_GID-35108_Type-34892"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_longitude_GID-46270_Type-132"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_maximum_GID-73238_Type-80582"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_minimum_GID-73141_Type-80582"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_name_GID-2_Type-200002"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_object_property_GID-120033_Type-120017"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_size_GID-28114_Type-34892"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_title_GID-34019_Type-117693"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_url_GID-34123_Type-34892"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_veracity_GID-26929_Type-45663"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="etype:has_version_GID-31836_Type-34892"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_e4c7a7b3_89a1_4828_9636_943701953f11"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_CourseActivityStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_LevelOfEducation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_SchoolLevelOfEducation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_address"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_area"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_cap"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_class"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_courseDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_dateOfBirth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_duration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_email_address"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_fax"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_field"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_firstName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_phone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_phone_num"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_secondName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_street_address"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_timetable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="etype:Event_GID-138"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="etype:IdentifyingSet_IS1-102"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="etype:IdentifyingSet_IS1-103"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="etype:IdentifyingSet_IS1-104"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="etype:IdentifyingSet_IS1-105"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="etype:Location_GID-132"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="etype:Organization_GID-43544"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="etype:Person_GID-118"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="etype:hasIdProperty"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="etype:hasUnitOfMeasure"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="etype:concept"/>
+    </Declaration>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Action_kind_GID-120018"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Computer_file_GID-34892"/>
+        <Class abbreviatedIRI="etype:Function_kind_GID-120019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Context_GID-120016"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Creation_GID-16921"/>
+        <Class abbreviatedIRI="etype:Function_kind_GID-120019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Duration_GID-80582"/>
+        <Class abbreviatedIRI="etype:Itelos_complextype_GID-200002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+        <Class abbreviatedIRI="etype:ComplexType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Event_GID-138"/>
+        <Class abbreviatedIRI="etype:Context_GID-120016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Function_kind_GID-120019"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Itelos_action_GID-200003"/>
+        <Class abbreviatedIRI="etype:Itelos_complextype_GID-200002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Itelos_complextype_GID-200002"/>
+        <Class abbreviatedIRI="etype:ComplexType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Itelos_concept_GID-200014"/>
+        <Class abbreviatedIRI="etype:ComplexType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Itelos_consumer_GID-200005"/>
+        <Class abbreviatedIRI="etype:Itelos_function_GID-200004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Itelos_function_GID-200004"/>
+        <Class abbreviatedIRI="etype:Itelos_complextype_GID-200002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Itelos_identifyingset_GID-200012"/>
+        <Class abbreviatedIRI="etype:ComplexType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Itelos_living_GID-200009"/>
+        <Class abbreviatedIRI="etype:Itelos_object_GID-200008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Itelos_nlstring_GID-200007"/>
+        <Class abbreviatedIRI="etype:Itelos_complextype_GID-200002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Itelos_nonliving_GID-200010"/>
+        <Class abbreviatedIRI="etype:Itelos_object_GID-200008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Itelos_object_GID-200008"/>
+        <Class abbreviatedIRI="etype:Itelos_complextype_GID-200002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Itelos_producer_GID-200006"/>
+        <Class abbreviatedIRI="etype:Itelos_function_GID-200004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Itelos_semanticstring_GID-200011"/>
+        <Class abbreviatedIRI="etype:Itelos_complextype_GID-200002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Living_being_GID-120021"/>
+        <Class abbreviatedIRI="etype:Real_kind_GID-120017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Location_GID-132"/>
+        <Class abbreviatedIRI="etype:Function_kind_GID-120019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Metadata_GID-45663"/>
+        <Class abbreviatedIRI="etype:Itelos_complextype_GID-200002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Moment_GID-81213"/>
+        <Class abbreviatedIRI="etype:Itelos_complextype_GID-200002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:NLString"/>
+        <Class abbreviatedIRI="etype:ComplexType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Name_GID-2"/>
+        <Class abbreviatedIRI="etype:Itelos_complextype_GID-200002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Organization_GID-43544"/>
+        <Class abbreviatedIRI="etype:Function_kind_GID-120019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Person_GID-118"/>
+        <Class abbreviatedIRI="etype:Living_being_GID-120021"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Person_name_GID-117693"/>
+        <Class abbreviatedIRI="etype:Name_GID-2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Real_kind_GID-120017"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:SemanticString"/>
+        <Class abbreviatedIRI="etype:ComplexType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:Structure_GID-24069"/>
+        <Class abbreviatedIRI="etype:Itelos_complextype_GID-200002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="etype:concept"/>
+        <Class abbreviatedIRI="xsd:long"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Comune"/>
+        <Class abbreviatedIRI="etype:Location_GID-132"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Director"/>
+        <Class abbreviatedIRI="etype:Person_GID-118"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Educational_Institute"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#NonLiving_being"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#NonLiving_being"/>
+        <Class abbreviatedIRI="etype:Real_kind_GID-120017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#School"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Educational_Institute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Student"/>
+        <Class abbreviatedIRI="etype:Person_GID-118"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#StudyCourse"/>
+        <Class abbreviatedIRI="etype:Context_GID-120016"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class abbreviatedIRI="etype:Person_GID-118"/>
+        <NamedIndividual abbreviatedIRI="etype:IdentifyingSet_IS1-102"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="etype:Location_GID-132"/>
+        <NamedIndividual abbreviatedIRI="etype:IdentifyingSet_IS1-103"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="etype:Event_GID-138"/>
+        <NamedIndividual abbreviatedIRI="etype:IdentifyingSet_IS1-104"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="etype:Organization_GID-43544"/>
+        <NamedIndividual abbreviatedIRI="etype:IdentifyingSet_IS1-105"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="etype:hasIdentifyingSet"/>
+        <NamedIndividual abbreviatedIRI="etype:Event_GID-138"/>
+        <NamedIndividual abbreviatedIRI="etype:IdentifyingSet_IS1-104"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="etype:hasIdentifyingSet"/>
+        <NamedIndividual abbreviatedIRI="etype:Location_GID-132"/>
+        <NamedIndividual abbreviatedIRI="etype:IdentifyingSet_IS1-103"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="etype:hasIdentifyingSet"/>
+        <NamedIndividual abbreviatedIRI="etype:Organization_GID-43544"/>
+        <NamedIndividual abbreviatedIRI="etype:IdentifyingSet_IS1-105"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="etype:hasIdentifyingSet"/>
+        <NamedIndividual abbreviatedIRI="etype:Person_GID-118"/>
+        <NamedIndividual abbreviatedIRI="etype:IdentifyingSet_IS1-102"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_beginning_GID-81324_Type-1"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_beginning_GID-81324_Type-200008"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_birthday_GID-81257_Type-118"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_birthplace_GID-45896_Type-118"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_birthplace_GID-45897_Type-45663"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_contributor_GID-53267_Type-16921"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_creator_GID-51275_Type-16921"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_creator_GID-51275_Type-34892"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_date_of_death_GID-118224_Type-118"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_date_of_publication_GID-117691_Type-34892"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_description_GID-3_Type-1"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_description_GID-3_Type-200008"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_duration_GID-80582_Type-1"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_duration_GID-80582_Type-200008"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_end_GID-81330_Type-1"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_end_GID-81330_Type-200008"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_first_name_GID-34006_Type-117693"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_actionfunction_GID-200020_Type-200003"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_actionobject_GID-200021_Type-200003"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_functionaction_GID-200022_Type-200004"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_functionobject_GID-200023_Type-200004"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_functionobject_GID-200023_Type-200008"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_objectfunction_GID-200025_Type-200008"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_objecttoobjectrelation_GID-200026_Type-200008"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_key_word_GID-33805_Type-16921"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_location_GID-132_Type-138"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_location_GID-132_Type-43544"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_middle_name_GID-34005_Type-117693"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_name_GID-2_Type-1"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_outline_GID-34682_Type-16921"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_part_meronym_GID-22_Type-1"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_part_meronym_GID-22_Type-200008"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_participant_GID-55912_Type-138"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_phase_GID-81455_Type-138"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_place_of_death_GID-118225_Type-118"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_subject_GID-35361_Type-16921"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_surname_GID-34003_Type-117693"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_time_GID-81346_Type-45663"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="etype:has_title_GID-34045_Type-16921"/>
+        <ObjectProperty abbreviatedIRI="etype:relationalAttribute"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:hasIdProperty"/>
+        <Class abbreviatedIRI="etype:IdentifyingSet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_action_property_GID-120036_Type-120018"/>
+        <Class abbreviatedIRI="etype:Action_kind_GID-120018"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_beginning_GID-81324_Type-1"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_beginning_GID-81324_Type-200008"/>
+        <Class abbreviatedIRI="etype:Itelos_object_GID-200008"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_biological_property_GID-120034_Type-120021"/>
+        <Class abbreviatedIRI="etype:Living_being_GID-120021"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_birthday_GID-81257_Type-118"/>
+        <Class abbreviatedIRI="etype:Person_GID-118"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_birthplace_GID-45896_Type-118"/>
+        <Class abbreviatedIRI="etype:Person_GID-118"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_birthplace_GID-45897_Type-45663"/>
+        <Class abbreviatedIRI="etype:Metadata_GID-45663"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_class_GID-43482_Type-1"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_class_GID-43482_Type-200008"/>
+        <Class abbreviatedIRI="etype:Itelos_object_GID-200008"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_context_property_GID-120032_Type-120016"/>
+        <Class abbreviatedIRI="etype:Context_GID-120016"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_contributor_GID-53267_Type-16921"/>
+        <Class abbreviatedIRI="etype:Creation_GID-16921"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_creator_GID-51275_Type-16921"/>
+        <Class abbreviatedIRI="etype:Creation_GID-16921"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_creator_GID-51275_Type-34892"/>
+        <Class abbreviatedIRI="etype:Computer_file_GID-34892"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_date_of_death_GID-118224_Type-118"/>
+        <Class abbreviatedIRI="etype:Person_GID-118"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_date_of_publication_GID-117691_Type-34892"/>
+        <Class abbreviatedIRI="etype:Computer_file_GID-34892"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_description_GID-3_Type-1"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_description_GID-3_Type-200008"/>
+        <Class abbreviatedIRI="etype:Itelos_object_GID-200008"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_duration_GID-80582_Type-1"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_duration_GID-80582_Type-200008"/>
+        <Class abbreviatedIRI="etype:Itelos_object_GID-200008"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_end_GID-81330_Type-1"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_end_GID-81330_Type-200008"/>
+        <Class abbreviatedIRI="etype:Itelos_object_GID-200008"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_first_name_GID-34006_Type-117693"/>
+        <Class abbreviatedIRI="etype:Person_name_GID-117693"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_function_property_GID-120037_Type-120019"/>
+        <Class abbreviatedIRI="etype:Function_kind_GID-120019"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_actionfunction_GID-200020_Type-200003"/>
+        <Class abbreviatedIRI="etype:Itelos_action_GID-200003"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_actionobject_GID-200021_Type-200003"/>
+        <Class abbreviatedIRI="etype:Itelos_action_GID-200003"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_functionaction_GID-200022_Type-200004"/>
+        <Class abbreviatedIRI="etype:Itelos_function_GID-200004"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_functionobject_GID-200023_Type-200004"/>
+        <Class abbreviatedIRI="etype:Itelos_function_GID-200004"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_functionobject_GID-200023_Type-200008"/>
+        <Class abbreviatedIRI="etype:Itelos_object_GID-200008"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_objectfunction_GID-200025_Type-200008"/>
+        <Class abbreviatedIRI="etype:Itelos_object_GID-200008"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_objecttoobjectrelation_GID-200026_Type-200008"/>
+        <Class abbreviatedIRI="etype:Itelos_object_GID-200008"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_key_word_GID-33805_Type-16921"/>
+        <Class abbreviatedIRI="etype:Creation_GID-16921"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_location_GID-132_Type-138"/>
+        <Class abbreviatedIRI="etype:Event_GID-138"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_location_GID-132_Type-43544"/>
+        <Class abbreviatedIRI="etype:Organization_GID-43544"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_maximum_GID-73238_Type-80582"/>
+        <Class abbreviatedIRI="etype:Duration_GID-80582"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_middle_name_GID-34005_Type-117693"/>
+        <Class abbreviatedIRI="etype:Person_name_GID-117693"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_minimum_GID-73141_Type-80582"/>
+        <Class abbreviatedIRI="etype:Duration_GID-80582"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_name_GID-2_Type-1"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_object_property_GID-120033_Type-120017"/>
+        <Class abbreviatedIRI="etype:Real_kind_GID-120017"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_outline_GID-34682_Type-16921"/>
+        <Class abbreviatedIRI="etype:Creation_GID-16921"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_part_meronym_GID-22_Type-1"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_part_meronym_GID-22_Type-200008"/>
+        <Class abbreviatedIRI="etype:Itelos_object_GID-200008"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_participant_GID-55912_Type-138"/>
+        <Class abbreviatedIRI="etype:Event_GID-138"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_phase_GID-81455_Type-138"/>
+        <Class abbreviatedIRI="etype:Event_GID-138"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_place_of_death_GID-118225_Type-118"/>
+        <Class abbreviatedIRI="etype:Person_GID-118"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_size_GID-28114_Type-34892"/>
+        <Class abbreviatedIRI="etype:Computer_file_GID-34892"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_subject_GID-35361_Type-16921"/>
+        <Class abbreviatedIRI="etype:Creation_GID-16921"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_surname_GID-34003_Type-117693"/>
+        <Class abbreviatedIRI="etype:Person_name_GID-117693"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_time_GID-81346_Type-45663"/>
+        <Class abbreviatedIRI="etype:Metadata_GID-45663"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_title_GID-34019_Type-117693"/>
+        <Class abbreviatedIRI="etype:Person_name_GID-117693"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="etype:has_title_GID-34045_Type-16921"/>
+        <Class abbreviatedIRI="etype:Creation_GID-16921"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_coursesOffered"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#School"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_enrolledCourse"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Student"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_enrolledInSchool"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Student"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_location"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#School"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Educational_Institute"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:hasIdentifyingSet"/>
+        <Class abbreviatedIRI="etype:IdentifyingSet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_action_property_GID-120036_Type-120018"/>
+        <Class abbreviatedIRI="etype:concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_beginning_GID-81324_Type-1"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_beginning_GID-81324_Type-200008"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_biological_property_GID-120034_Type-120021"/>
+        <Class abbreviatedIRI="etype:concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_birthday_GID-81257_Type-118"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_birthplace_GID-45896_Type-118"/>
+        <Class abbreviatedIRI="etype:Itelos_nonliving_GID-200010"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_birthplace_GID-45897_Type-45663"/>
+        <Class abbreviatedIRI="etype:Itelos_nonliving_GID-200010"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_class_GID-43482_Type-1"/>
+        <Class abbreviatedIRI="etype:concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_class_GID-43482_Type-200008"/>
+        <Class abbreviatedIRI="etype:concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_context_property_GID-120032_Type-120016"/>
+        <Class abbreviatedIRI="etype:concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_contributor_GID-53267_Type-16921"/>
+        <Class abbreviatedIRI="etype:Itelos_living_GID-200009"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_creator_GID-51275_Type-16921"/>
+        <Class abbreviatedIRI="etype:Itelos_living_GID-200009"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_creator_GID-51275_Type-34892"/>
+        <Class abbreviatedIRI="etype:Itelos_living_GID-200009"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_date_of_death_GID-118224_Type-118"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_date_of_publication_GID-117691_Type-34892"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_description_GID-3_Type-1"/>
+        <Class abbreviatedIRI="etype:SemanticString"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_description_GID-3_Type-200008"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_duration_GID-80582_Type-1"/>
+        <Class abbreviatedIRI="etype:Itelos_complextype_GID-200002"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_duration_GID-80582_Type-200008"/>
+        <Class abbreviatedIRI="etype:Itelos_complextype_GID-200002"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_end_GID-81330_Type-1"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_end_GID-81330_Type-200008"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_first_name_GID-34006_Type-117693"/>
+        <Class abbreviatedIRI="etype:NLString"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_function_property_GID-120037_Type-120019"/>
+        <Class abbreviatedIRI="etype:concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_actionfunction_GID-200020_Type-200003"/>
+        <Class abbreviatedIRI="etype:ComplexType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_actionobject_GID-200021_Type-200003"/>
+        <Class abbreviatedIRI="etype:ComplexType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_functionaction_GID-200022_Type-200004"/>
+        <Class abbreviatedIRI="etype:ComplexType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_functionobject_GID-200023_Type-200004"/>
+        <Class abbreviatedIRI="etype:ComplexType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_functionobject_GID-200023_Type-200008"/>
+        <Class abbreviatedIRI="etype:ComplexType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_objectfunction_GID-200025_Type-200008"/>
+        <Class abbreviatedIRI="etype:ComplexType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_has_itelos_objecttoobjectrelation_GID-200026_Type-200008"/>
+        <Class abbreviatedIRI="etype:ComplexType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_key_word_GID-33805_Type-16921"/>
+        <Class abbreviatedIRI="etype:SemanticString"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_location_GID-132_Type-138"/>
+        <Class abbreviatedIRI="etype:Itelos_nonliving_GID-200010"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_location_GID-132_Type-43544"/>
+        <Class abbreviatedIRI="etype:Itelos_nonliving_GID-200010"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_maximum_GID-73238_Type-80582"/>
+        <Class abbreviatedIRI="xsd:long"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_middle_name_GID-34005_Type-117693"/>
+        <Class abbreviatedIRI="etype:NLString"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_minimum_GID-73141_Type-80582"/>
+        <Class abbreviatedIRI="xsd:long"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_name_GID-2_Type-1"/>
+        <Class abbreviatedIRI="etype:Itelos_complextype_GID-200002"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_object_property_GID-120033_Type-120017"/>
+        <Class abbreviatedIRI="etype:concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_outline_GID-34682_Type-16921"/>
+        <Class abbreviatedIRI="etype:SemanticString"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_part_meronym_GID-22_Type-1"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_part_meronym_GID-22_Type-200008"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_participant_GID-55912_Type-138"/>
+        <Class abbreviatedIRI="etype:Itelos_living_GID-200009"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_phase_GID-81455_Type-138"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_place_of_death_GID-118225_Type-118"/>
+        <Class abbreviatedIRI="etype:Itelos_nonliving_GID-200010"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_size_GID-28114_Type-34892"/>
+        <Class abbreviatedIRI="xsd:long"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_subject_GID-35361_Type-16921"/>
+        <Class abbreviatedIRI="etype:SemanticString"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_surname_GID-34003_Type-117693"/>
+        <Class abbreviatedIRI="etype:NLString"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_time_GID-81346_Type-45663"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_title_GID-34019_Type-117693"/>
+        <Class abbreviatedIRI="etype:concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="etype:has_title_GID-34045_Type-16921"/>
+        <Class abbreviatedIRI="etype:NLString"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_coursesOffered"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#StudyCourse"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_enrolledCourse"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#StudyCourse"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_enrolledInSchool"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#School"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Director"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_action_property_GID-120036_Type-120018"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_beginning_GID-81324_Type-81213"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_biological_property_GID-120034_Type-120021"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_class_GID-43482_Type-1"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_class_GID-43482_Type-200008"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_context_property_GID-120032_Type-120016"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_electronic_mail_GID-33745_Type-118"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_elevation_GID-28270_Type-132"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_end_GID-81330_Type-81213"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_format_GID-35579_Type-34892"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_function_property_GID-120037_Type-120019"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_home_page_GID-34125_Type-34892"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_identifier_GID-39085_Type-1"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_identifier_GID-39085_Type-200008"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_latitude_GID-46263_Type-132"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_license_GID-35108_Type-34892"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_longitude_GID-46270_Type-132"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_maximum_GID-73238_Type-80582"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_minimum_GID-73141_Type-80582"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_name_GID-2_Type-200002"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_object_property_GID-120033_Type-120017"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_size_GID-28114_Type-34892"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_title_GID-34019_Type-117693"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_url_GID-34123_Type-34892"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_veracity_GID-26929_Type-45663"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="etype:has_version_GID-31836_Type-34892"/>
+        <DataProperty abbreviatedIRI="etype:datatypeAttribute"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="etype:hasLanguage"/>
+        <Class abbreviatedIRI="etype:NLString"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="etype:hasSourceString"/>
+        <Class abbreviatedIRI="etype:SemanticString"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="etype:hasString"/>
+        <Class abbreviatedIRI="etype:NLString"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="etype:has_beginning_GID-81324_Type-81213"/>
+        <Class abbreviatedIRI="etype:Moment_GID-81213"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="etype:has_electronic_mail_GID-33745_Type-118"/>
+        <Class abbreviatedIRI="etype:Person_GID-118"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="etype:has_elevation_GID-28270_Type-132"/>
+        <Class abbreviatedIRI="etype:Location_GID-132"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="etype:has_end_GID-81330_Type-81213"/>
+        <Class abbreviatedIRI="etype:Moment_GID-81213"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="etype:has_format_GID-35579_Type-34892"/>
+        <Class abbreviatedIRI="etype:Computer_file_GID-34892"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="etype:has_home_page_GID-34125_Type-34892"/>
+        <Class abbreviatedIRI="etype:Computer_file_GID-34892"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="etype:has_identifier_GID-39085_Type-1"/>
+        <Class abbreviatedIRI="etype:Entity_GID-1"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="etype:has_identifier_GID-39085_Type-200008"/>
+        <Class abbreviatedIRI="etype:Itelos_object_GID-200008"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="etype:has_latitude_GID-46263_Type-132"/>
+        <Class abbreviatedIRI="etype:Location_GID-132"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="etype:has_license_GID-35108_Type-34892"/>
+        <Class abbreviatedIRI="etype:Computer_file_GID-34892"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="etype:has_longitude_GID-46270_Type-132"/>
+        <Class abbreviatedIRI="etype:Location_GID-132"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="etype:has_name_GID-2_Type-200002"/>
+        <Class abbreviatedIRI="etype:Itelos_complextype_GID-200002"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="etype:has_url_GID-34123_Type-34892"/>
+        <Class abbreviatedIRI="etype:Computer_file_GID-34892"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="etype:has_veracity_GID-26929_Type-45663"/>
+        <Class abbreviatedIRI="etype:Metadata_GID-45663"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="etype:has_version_GID-31836_Type-34892"/>
+        <Class abbreviatedIRI="etype:Computer_file_GID-34892"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_CourseActivityStatus"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#StudyCourse"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_LevelOfEducation"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Student"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_SchoolLevelOfEducation"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#School"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_address"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Educational_Institute"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_age"/>
+        <Class abbreviatedIRI="etype:Person_GID-118"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_area"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Comune"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_cap"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Comune"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_class"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Student"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_courseDescription"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#StudyCourse"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_dateOfBirth"/>
+        <Class abbreviatedIRI="etype:Person_GID-118"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_duration"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#StudyCourse"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_email"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Educational_Institute"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_email_address"/>
+        <Class abbreviatedIRI="etype:Person_GID-118"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_fax"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Educational_Institute"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_field"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Student"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_firstName"/>
+        <Class abbreviatedIRI="etype:Person_GID-118"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_name"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Comune"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_name"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Educational_Institute"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_phone"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Educational_Institute"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_phone_num"/>
+        <Class abbreviatedIRI="etype:Person_GID-118"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_secondName"/>
+        <Class abbreviatedIRI="etype:Person_GID-118"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_timetable"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#School"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="etype:hasLanguage"/>
+        <Datatype abbreviatedIRI="xsd:language"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="etype:hasSourceString"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="etype:hasString"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="etype:has_beginning_GID-81324_Type-81213"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="etype:has_electronic_mail_GID-33745_Type-118"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="etype:has_elevation_GID-28270_Type-132"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="etype:has_end_GID-81330_Type-81213"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="etype:has_format_GID-35579_Type-34892"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="etype:has_home_page_GID-34125_Type-34892"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="etype:has_identifier_GID-39085_Type-1"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="etype:has_identifier_GID-39085_Type-200008"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="etype:has_latitude_GID-46263_Type-132"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="etype:has_license_GID-35108_Type-34892"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="etype:has_longitude_GID-46270_Type-132"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="etype:has_name_GID-2_Type-200002"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="etype:has_url_GID-34123_Type-34892"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="etype:has_veracity_GID-26929_Type-45663"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="etype:has_version_GID-31836_Type-34892"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Action_kind_GID-120018</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">120018</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Action_kind_GID-120018</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Computer_file_GID-34892</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">34892</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Computer_file_GID-34892</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Context_GID-120016</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">120016</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Context_GID-120016</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Creation_GID-16921</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">16921</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Creation_GID-16921</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Duration_GID-80582</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">80582</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Duration_GID-80582</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Entity_GID-1</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Entity_GID-1</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Event_GID-138</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">138</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Event_GID-138</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Function_kind_GID-120019</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">120019</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Function_kind_GID-120019</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:hasIdProperty"/>
+        <AbbreviatedIRI>etype:IdentifyingSet_IS1-102</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Class_GID-43482</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:hasIdProperty"/>
+        <AbbreviatedIRI>etype:IdentifyingSet_IS1-102</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Electronic_mail_GID-33745</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:hasIdProperty"/>
+        <AbbreviatedIRI>etype:IdentifyingSet_IS1-102</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Name_GID-2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:hasIdProperty"/>
+        <AbbreviatedIRI>etype:IdentifyingSet_IS1-103</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Class_GID-43482</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:hasIdProperty"/>
+        <AbbreviatedIRI>etype:IdentifyingSet_IS1-103</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Latitude_GID-46263</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:hasIdProperty"/>
+        <AbbreviatedIRI>etype:IdentifyingSet_IS1-103</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Longitude_GID-46270</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:hasIdProperty"/>
+        <AbbreviatedIRI>etype:IdentifyingSet_IS1-103</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Name_GID-2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:hasIdProperty"/>
+        <AbbreviatedIRI>etype:IdentifyingSet_IS1-103</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Part_meronym_GID-22</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:hasIdProperty"/>
+        <AbbreviatedIRI>etype:IdentifyingSet_IS1-104</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Beginning_GID-81324</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:hasIdProperty"/>
+        <AbbreviatedIRI>etype:IdentifyingSet_IS1-104</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Class_GID-43482</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:hasIdProperty"/>
+        <AbbreviatedIRI>etype:IdentifyingSet_IS1-104</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">End_GID-81330</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:hasIdProperty"/>
+        <AbbreviatedIRI>etype:IdentifyingSet_IS1-104</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Name_GID-2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:hasIdProperty"/>
+        <AbbreviatedIRI>etype:IdentifyingSet_IS1-105</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Class_GID-43482</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:hasIdProperty"/>
+        <AbbreviatedIRI>etype:IdentifyingSet_IS1-105</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Location_GID-132</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:hasIdProperty"/>
+        <AbbreviatedIRI>etype:IdentifyingSet_IS1-105</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Name_GID-2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Itelos_action_GID-200003</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">200003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Itelos_action_GID-200003</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Itelos_complextype_GID-200002</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">200002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Itelos_complextype_GID-200002</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Itelos_concept_GID-200014</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">200014</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Itelos_concept_GID-200014</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Itelos_consumer_GID-200005</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">200005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Itelos_consumer_GID-200005</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Itelos_function_GID-200004</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">200004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Itelos_function_GID-200004</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Itelos_identifyingset_GID-200012</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">200012</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Itelos_identifyingset_GID-200012</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Itelos_living_GID-200009</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">200009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Itelos_living_GID-200009</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Itelos_nlstring_GID-200007</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">200007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Itelos_nlstring_GID-200007</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Itelos_nonliving_GID-200010</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">200010</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Itelos_nonliving_GID-200010</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Itelos_object_GID-200008</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">200008</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Itelos_object_GID-200008</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Itelos_producer_GID-200006</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">200006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Itelos_producer_GID-200006</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Itelos_semanticstring_GID-200011</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">200011</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Itelos_semanticstring_GID-200011</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Living_being_GID-120021</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">120021</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Living_being_GID-120021</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Location_GID-132</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">132</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Location_GID-132</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Metadata_GID-45663</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">45663</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Metadata_GID-45663</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Moment_GID-81213</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">81213</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Moment_GID-81213</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Name_GID-2</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Name_GID-2</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Organization_GID-43544</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">43544</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Organization_GID-43544</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Person_GID-118</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">118</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Person_GID-118</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Person_name_GID-117693</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">117693</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Person_name_GID-117693</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Real_kind_GID-120017</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">120017</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Real_kind_GID-120017</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:Structure_GID-24069</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">24069</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <AbbreviatedIRI>etype:Structure_GID-24069</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_action_property_GID-120036_Type-120018</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">120036</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_beginning_GID-81324_Type-1</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">81324</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_beginning_GID-81324_Type-200008</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">81324</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_beginning_GID-81324_Type-81213</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">81324</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_biological_property_GID-120034_Type-120021</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">120034</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_birthday_GID-81257_Type-118</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">81257</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_birthplace_GID-45896_Type-118</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">45896</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_birthplace_GID-45897_Type-45663</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">45897</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_class_GID-43482_Type-1</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">43482</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_class_GID-43482_Type-200008</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">43482</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_context_property_GID-120032_Type-120016</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">120032</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_contributor_GID-53267_Type-16921</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">53267</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_creator_GID-51275_Type-16921</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">51275</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_creator_GID-51275_Type-34892</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">51275</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_date_of_death_GID-118224_Type-118</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">118224</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_date_of_publication_GID-117691_Type-34892</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">117691</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_description_GID-3_Type-1</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_description_GID-3_Type-200008</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_duration_GID-80582_Type-1</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">80582</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_duration_GID-80582_Type-200008</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">80582</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_electronic_mail_GID-33745_Type-118</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">33745</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_elevation_GID-28270_Type-132</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">28270</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_end_GID-81330_Type-1</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">81330</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_end_GID-81330_Type-200008</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">81330</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_end_GID-81330_Type-81213</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">81330</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_first_name_GID-34006_Type-117693</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">34006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_format_GID-35579_Type-34892</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">35579</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_function_property_GID-120037_Type-120019</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">120037</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_has_itelos_actionfunction_GID-200020_Type-200003</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">200020</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_has_itelos_actionobject_GID-200021_Type-200003</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">200021</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_has_itelos_functionaction_GID-200022_Type-200004</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">200022</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_has_itelos_functionobject_GID-200023_Type-200004</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">200023</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_has_itelos_functionobject_GID-200023_Type-200008</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">200023</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_has_itelos_objectfunction_GID-200025_Type-200008</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">200025</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_has_itelos_objecttoobjectrelation_GID-200026_Type-200008</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">200026</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_home_page_GID-34125_Type-34892</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">34125</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_identifier_GID-39085_Type-1</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">39085</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_identifier_GID-39085_Type-200008</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">39085</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_key_word_GID-33805_Type-16921</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">33805</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_latitude_GID-46263_Type-132</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">46263</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_license_GID-35108_Type-34892</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">35108</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_location_GID-132_Type-138</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">132</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_location_GID-132_Type-43544</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">132</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_longitude_GID-46270_Type-132</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">46270</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_maximum_GID-73238_Type-80582</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">73238</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_middle_name_GID-34005_Type-117693</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">34005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_minimum_GID-73141_Type-80582</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">73141</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_name_GID-2_Type-1</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_name_GID-2_Type-200002</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_object_property_GID-120033_Type-120017</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">120033</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_outline_GID-34682_Type-16921</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">34682</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_part_meronym_GID-22_Type-1</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">22</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_part_meronym_GID-22_Type-200008</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">22</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_participant_GID-55912_Type-138</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">55912</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_phase_GID-81455_Type-138</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">81455</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_place_of_death_GID-118225_Type-118</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">118225</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_size_GID-28114_Type-34892</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">28114</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_subject_GID-35361_Type-16921</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">35361</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_surname_GID-34003_Type-117693</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">34003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_time_GID-81346_Type-45663</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">81346</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_title_GID-34019_Type-117693</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">34019</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_title_GID-34045_Type-16921</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">34045</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_url_GID-34123_Type-34892</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">34123</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_veracity_GID-26929_Type-45663</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">26929</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:GID"/>
+        <AbbreviatedIRI>etype:has_version_GID-31836_Type-34892</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;long">31836</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Comune</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Director</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Educational_Institute</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#NonLiving_being</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_e4c7a7b3_89a1_4828_9636_943701953f11</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has_typeOfSchool</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#School</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="etype:isEtype"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#StudyCourse</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationPropertyRange>
+        <AnnotationProperty abbreviatedIRI="etype:hasUnitOfMeasure"/>
+        <AbbreviatedIRI>etype:concept</AbbreviatedIRI>
+    </AnnotationPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

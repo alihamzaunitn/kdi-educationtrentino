@@ -1,0 +1,329 @@
+<http://localhost:8080/source/LICEO%20"A.%20Maffei"%20-%20RIVA%20DEL%20GARDA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/ZAMBONI%20ANTONIA> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/LICEO%20"A.%20Maffei"%20-%20RIVA%20DEL%20GARDA> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ZAMBONI%20ANTONIA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/ZAMBONI%20ANTONIA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "ZAMBONI ANTONIA" .
+
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20RONCEGNO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/FORENZA%20SALVATORE> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "FORENZA SALVATORE" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/FORENZA%20SALVATORE> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/FORENZA%20SALVATORE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20RONCEGNO> .
+
+<http://localhost:8080/source/COOPERATIVA%20SOCIALE%20A%20R.L.%20G.VERONESI%20-%20ROVERETO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/OLIVIA%20OLIVO> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "OLIVIA OLIVO" .
+<http://localhost:8080/source/OLIVIA%20OLIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/OLIVIA%20OLIVO> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/COOPERATIVA%20SOCIALE%20A%20R.L.%20G.VERONESI%20-%20ROVERETO> .
+
+<http://localhost:8080/source/SANTOLI%20GIUSEPPE> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "SANTOLI GIUSEPPE" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ISERA%20-%20ROVERETO> .
+<http://localhost:8080/source/SANTOLI%20GIUSEPPE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ISERA%20-%20ROVERETO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/SANTOLI%20GIUSEPPE> .
+
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VOLANO%20-%20ROVERETO%20NORD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/MARCHESONI%20GIOVANNA> .
+<http://localhost:8080/source/MARCHESONI%20GIOVANNA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/MARCHESONI%20GIOVANNA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "MARCHESONI GIOVANNA" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VOLANO%20-%20ROVERETO%20NORD> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+
+<http://localhost:8080/source/CHEMOTTI%20TIZIANA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/CHEMOTTI%20TIZIANA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "CHEMOTTI TIZIANA" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ROVERETO%20EST> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ROVERETO%20EST> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/CHEMOTTI%20TIZIANA> .
+
+<http://localhost:8080/source/AGOSTINI%20LAMBERTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/COLLEGIO%20ARCIVESCOVILE%20DAME%20INGLESI%20-%20ROVERETO> .
+<http://localhost:8080/source/AGOSTINI%20LAMBERTO> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "AGOSTINI LAMBERTO" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/AGOSTINI%20LAMBERTO> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/COLLEGIO%20ARCIVESCOVILE%20DAME%20INGLESI%20-%20ROVERETO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+
+<http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20"don%20L.Milani"%20-%20ROVERETO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/SIMONCELLI%20DANIELA> .
+<http://localhost:8080/source/SIMONCELLI%20DANIELA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20"don%20L.Milani"%20-%20ROVERETO> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/SIMONCELLI%20DANIELA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "SIMONCELLI DANIELA" .
+
+<http://localhost:8080/source/ZOLLER%20LAURA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"G.%20Marconi"%20-%20ROVERETO> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/ZOLLER%20LAURA> .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"G.%20Marconi"%20-%20ROVERETO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ZOLLER%20LAURA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "ZOLLER LAURA" .
+
+<http://localhost:8080/source/ANDREATTA%20FLAVIA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "ANDREATTA FLAVIA" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/ANDREATTA%20FLAVIA> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ANDREATTA%20FLAVIA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20TECNICO%20ECONOMICO%20E%20TECNOLOGICO%20"F.e%20G.Fontana"%20-%20ROVERETO> .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20ECONOMICO%20E%20TECNOLOGICO%20"F.e%20G.Fontana"%20-%20ROVERETO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/OBER%20MARTA> .
+<http://localhost:8080/source/OBER%20MARTA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/LICEO%20"F.Filzi"%20-%20ROVERETO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/OBER%20MARTA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "OBER MARTA" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/LICEO%20"F.Filzi"%20-%20ROVERETO> .
+
+<http://localhost:8080/source/DE%20PASCALE%20FRANCESCO%20CARMINE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/LICEO%20"A.%20Rosmini"%20-%20ROVERETO> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/LICEO%20"A.%20Rosmini"%20-%20ROVERETO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/DE%20PASCALE%20FRANCESCO%20CARMINE> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "DE PASCALE FRANCESCO CARMINE" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/DE%20PASCALE%20FRANCESCO%20CARMINE> .
+
+<http://localhost:8080/source/FONDAZIONE%20EDMUND%20MACH%20-%20ISTITUTO%20AGRARIO%20SAN%20MICHELE%20ALL%27ADIGE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/DAL%20RI%20MARCO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/DAL%20RI%20MARCO> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "DAL RI MARCO" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/FONDAZIONE%20EDMUND%20MACH%20-%20ISTITUTO%20AGRARIO%20SAN%20MICHELE%20ALL%27ADIGE> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/DAL%20RI%20MARCO> .
+
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/PARIS%20ALBERTO> .
+<http://localhost:8080/source/PARIS%20ALBERTO> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "PARIS ALBERTO" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20DEL%20CHIESE%20"Don%20L.%20Milani"> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20DEL%20CHIESE%20"Don%20L.%20Milani"> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/PARIS%20ALBERTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+
+<http://localhost:8080/source/ZANON%20ANTONELLA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ZANON%20ANTONELLA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "ZANON ANTONELLA" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20STRIGNO%20E%20TESINO> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20STRIGNO%20E%20TESINO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/ZANON%20ANTONELLA> .
+
+<http://localhost:8080/source/RUATTI%20CESARE%20MARINO> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "RUATTI CESARE MARINO" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TAIO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/RUATTI%20CESARE%20MARINO> .
+<http://localhost:8080/source/RUATTI%20CESARE%20MARINO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TAIO> .
+
+<http://localhost:8080/source/LUCCHIARI%20FRANCA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "LUCCHIARI FRANCA" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TELVE> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TELVE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/LUCCHIARI%20FRANCA> .
+<http://localhost:8080/source/LUCCHIARI%20FRANCA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TESERO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/PIZZARDO%20CANDIDA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "PIZZARDO CANDIDA" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TESERO> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/PIZZARDO%20CANDIDA> .
+<http://localhost:8080/source/PIZZARDO%20CANDIDA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TIONE> .
+<http://localhost:8080/source/CAPRONI%20MAURIZIO> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "CAPRONI MAURIZIO" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/CAPRONI%20MAURIZIO> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TIONE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/CAPRONI%20MAURIZIO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/GULLI%20TIZIANA> .
+<http://localhost:8080/source/GULLI%20TIZIANA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "GULLI TIZIANA" .
+<http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20"L.%20Guetti"%20-%20TIONE%20DI%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/GULLI%20TIZIANA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20"L.%20Guetti"%20-%20TIONE%20DI%20TRENTO> .
+
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20DI%20SCUOLA%20PRIMARIA%20E%20SECONDARIA%20DI%20PRIMIERO> .
+<http://localhost:8080/source/NESLER%20ROMANO> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "NESLER ROMANO" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/NESLER%20ROMANO> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20DI%20SCUOLA%20PRIMARIA%20E%20SECONDARIA%20DI%20PRIMIERO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/NESLER%20ROMANO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+
+<http://localhost:8080/source/ISTITUTO%20SACRA%20FAMIGLIA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/TONELOTTO%20MARIA> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20SACRA%20FAMIGLIA> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/TONELOTTO%20MARIA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "TONELOTTO MARIA" .
+<http://localhost:8080/source/TONELOTTO%20MARIA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+
+<http://localhost:8080/source/QUARTI%20MARISA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "QUARTI MARISA" .
+<http://localhost:8080/source/ISTITUTO%20MARIA%20SS.BAMBINA%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/QUARTI%20MARISA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20MARIA%20SS.BAMBINA%20-%20TRENTO> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/QUARTI%20MARISA> .
+
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%201> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/CETRANO%20NICOLA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "CETRANO NICOLA" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/CETRANO%20NICOLA> .
+<http://localhost:8080/source/CETRANO%20NICOLA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+
+<http://localhost:8080/source/BOCCARDI%20MARIA%20SILVA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%202%20"J.%20A.%20Comenius"> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/BOCCARDI%20MARIA%20SILVA> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%202%20"J.%20A.%20Comenius"> .
+<http://localhost:8080/source/BOCCARDI%20MARIA%20SILVA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "BOCCARDI MARIA SILVA" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ALDENO%20MATTARELLO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ALDENO%20MATTARELLO> .
+<http://localhost:8080/source/DECARLI%20ANTONIETTA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "DECARLI ANTONIETTA" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/DECARLI%20ANTONIETTA> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/DECARLI%20ANTONIETTA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/MATTIVI%20VIGILIO> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "MATTIVI VIGILIO" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/MATTIVI%20VIGILIO> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%204> .
+<http://localhost:8080/source/MATTIVI%20VIGILIO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/ROSA%20MICHELE> .
+<http://localhost:8080/source/ROSA%20MICHELE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%205> .
+<http://localhost:8080/source/ROSA%20MICHELE> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "ROSA MICHELE" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%205> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%206> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/PASQUALIN%20PAOLA> .
+<http://localhost:8080/source/PASQUALIN%20PAOLA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/PASQUALIN%20PAOLA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "PASQUALIN PAOLA" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%206> .
+
+<http://localhost:8080/source/KIRCHNER%20%20STEFANO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/KIRCHNER%20%20STEFANO> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "KIRCHNER  STEFANO" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%207> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/KIRCHNER%20%20STEFANO> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%207> .
+
+<http://localhost:8080/source/MARTINELLI%20MARINA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/MARTINELLI%20MARINA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "MARTINELLI MARINA" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/MARTINELLI%20MARINA> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%203> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%203> .
+
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/RAIMONDO%20LEO> .
+<http://localhost:8080/source/RAIMONDO%20LEO> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "RAIMONDO LEO" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ASSOCIAZIONE%20PEDAGOGICA%20STEINERIANA%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/RAIMONDO%20LEO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ASSOCIAZIONE%20PEDAGOGICA%20STEINERIANA%20-%20TRENTO> .
+
+<http://localhost:8080/source/POIAN%20MARINA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/ISTITUTO%20PROF.SERVIZI%20COMM.E%20TURISTICI%20"L.Battisti"%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20PROF.SERVIZI%20COMM.E%20TURISTICI%20"L.Battisti"%20-%20TRENTO> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/POIAN%20MARINA> .
+<http://localhost:8080/source/POIAN%20MARINA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "POIAN MARINA" .
+
+<http://localhost:8080/source/DALVIT%20PAOLO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"M.%20Buonarroti"%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/DALVIT%20PAOLO> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "DALVIT PAOLO" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/DALVIT%20PAOLO> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"M.%20Buonarroti"%20-%20TRENTO> .
+
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20COMMERCIALE%20"A.Tambosi"%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/CARAMPIN%20FRANCESCA> .
+<http://localhost:8080/source/CARAMPIN%20FRANCESCA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/CARAMPIN%20FRANCESCA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "CARAMPIN FRANCESCA" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20TECNICO%20COMMERCIALE%20"A.Tambosi"%20-%20TRENTO> .
+
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"A.Pozzo"%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/MASSIMO%20ELINA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "MASSIMO ELINA" .
+<http://localhost:8080/source/MASSIMO%20ELINA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"A.Pozzo"%20-%20TRENTO> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/MASSIMO%20ELINA> .
+
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/LICEO%20"A.%20Rosmini"%20-%20TRENTO> .
+<http://localhost:8080/source/CAROLLO%20MATILDE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/CAROLLO%20MATILDE> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "CAROLLO MATILDE" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/LICEO%20"A.%20Rosmini"%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/CAROLLO%20MATILDE> .
+
+<http://localhost:8080/source/DALVIT%20FLAVIO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/DALVIT%20FLAVIO> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "DALVIT FLAVIO" .
+<http://localhost:8080/source/LICEO%20SCIENTIFICO%20"G.%20Galilei"%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/DALVIT%20FLAVIO> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/LICEO%20SCIENTIFICO%20"G.%20Galilei"%20-%20TRENTO> .
+
+<http://localhost:8080/source/LICEO%20SCIENTIFICO%20"L.%20Da%20Vinci"%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/LICEO%20SCIENTIFICO%20"L.%20Da%20Vinci"%20-%20TRENTO> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/TOMASI%20ALBERTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/TOMASI%20ALBERTO> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "TOMASI ALBERTO" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/TOMASI%20ALBERTO> .
+
+<http://localhost:8080/source/PEZZO%20MARIA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "PEZZO MARIA" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/LICEO%20CLASSICO%20"G.Prati"%20-%20TRENTO> .
+<http://localhost:8080/source/PEZZO%20MARIA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/LICEO%20CLASSICO%20"G.Prati"%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/PEZZO%20MARIA> .
+
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/RASERA%20PAOLO> .
+<http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20DELLE%20ARTI%20"Vittoria%20Bonporti%20Depero"%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/RASERA%20PAOLO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/RASERA%20PAOLO> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "RASERA PAOLO" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20DELLE%20ARTI%20"Vittoria%20Bonporti%20Depero"%20-%20TRENTO> .
+
+<http://localhost:8080/source/AGOSTINI%20LAMBERTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/AGOSTINI%20LAMBERTO> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "AGOSTINI LAMBERTO" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/COLLEGIO%20ARCIVESCOVILE%20C.ENDRICI%20-%20TRENTO> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/AGOSTINI%20LAMBERTO> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/COLLEGIO%20ARCIVESCOVILE%20C.ENDRICI%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/DONATINI%20DARIO> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20SACRO%20CUORE%20-%20TRENTO> .
+<http://localhost:8080/source/ISTITUTO%20SACRO%20CUORE%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/DONATINI%20DARIO> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "DONATINI DARIO" .
+<http://localhost:8080/source/DONATINI%20DARIO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/PEGORETTI%20PIERA> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/PEGORETTI%20PIERA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/PEGORETTI%20PIERA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "PEGORETTI PIERA" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TUENNO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TUENNO> .
+
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VEZZANO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ANTONIOL%20ROSANNA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/ANTONIOL%20ROSANNA> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ANTONIOL%20ROSANNA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "ANTONIOL ROSANNA" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VEZZANO> .
+
+<http://localhost:8080/source/TURRINI%20SARA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/TURRINI%20SARA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "TURRINI SARA" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VIGOLO%20VATTARO> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/TURRINI%20SARA> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VIGOLO%20VATTARO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/BROZ%20MANUELA> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VILLA%20LAGARINA> .
+<http://localhost:8080/source/BROZ%20MANUELA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VILLA%20LAGARINA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/BROZ%20MANUELA> <http://www.co-ode.org/ontologies/ont.owl#has_firstName_Type-118> "BROZ MANUELA" .
+

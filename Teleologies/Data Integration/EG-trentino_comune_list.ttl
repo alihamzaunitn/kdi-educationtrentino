@@ -1,0 +1,704 @@
+<http://localhost:8080/source/Ala> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Ala> <http://www.co-ode.org/ontologies/ont.owl#has_area> "119.9" .
+<http://localhost:8080/source/Ala> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Ala" .
+
+<http://localhost:8080/source/Albiano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Albiano> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Albiano" .
+<http://localhost:8080/source/Albiano> <http://www.co-ode.org/ontologies/ont.owl#has_area> "9" .
+
+<http://localhost:8080/source/Aldeno> <http://www.co-ode.org/ontologies/ont.owl#has_area> "8.98" .
+<http://localhost:8080/source/Aldeno> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Aldeno" .
+<http://localhost:8080/source/Aldeno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Altavalle> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Altavalle" .
+<http://localhost:8080/source/Altavalle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Altavalle> <http://www.co-ode.org/ontologies/ont.owl#has_area> "33.56" .
+
+<http://localhost:8080/source/Altopiano%20della%20Vigolana> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Altopiano della Vigolana" .
+<http://localhost:8080/source/Altopiano%20della%20Vigolana> <http://www.co-ode.org/ontologies/ont.owl#has_area> "45.03" .
+<http://localhost:8080/source/Altopiano%20della%20Vigolana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Amblar-Don> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Amblar-Don> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Amblar-Don" .
+<http://localhost:8080/source/Amblar-Don> <http://www.co-ode.org/ontologies/ont.owl#has_area> "14.59" .
+
+<http://localhost:8080/source/Andalo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "9.81" .
+<http://localhost:8080/source/Andalo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Andalo" .
+<http://localhost:8080/source/Andalo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Arco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Arco> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Arco" .
+<http://localhost:8080/source/Arco> <http://www.co-ode.org/ontologies/ont.owl#has_area> "63" .
+
+<http://localhost:8080/source/Avio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Avio> <http://www.co-ode.org/ontologies/ont.owl#has_area> "68.83" .
+<http://localhost:8080/source/Avio> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Avio" .
+
+<http://localhost:8080/source/Baselga%20di%20Pinè> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Baselga di Pinè" .
+<http://localhost:8080/source/Baselga%20di%20Pinè> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Baselga%20di%20Pinè> <http://www.co-ode.org/ontologies/ont.owl#has_area> "40.8" .
+
+<http://localhost:8080/source/Bedollo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "27.4" .
+<http://localhost:8080/source/Bedollo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Bedollo" .
+<http://localhost:8080/source/Bedollo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Besenello> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Besenello> <http://www.co-ode.org/ontologies/ont.owl#has_area> "25" .
+<http://localhost:8080/source/Besenello> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Besenello" .
+
+<http://localhost:8080/source/Bieno> <http://www.co-ode.org/ontologies/ont.owl#has_area> "11" .
+<http://localhost:8080/source/Bieno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Bieno> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Bieno" .
+
+<http://localhost:8080/source/Bleggio%20Superiore> <http://www.co-ode.org/ontologies/ont.owl#has_area> "32" .
+<http://localhost:8080/source/Bleggio%20Superiore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Bleggio%20Superiore> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Bleggio Superiore" .
+
+<http://localhost:8080/source/Bocenago> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Bocenago> <http://www.co-ode.org/ontologies/ont.owl#has_area> "8" .
+<http://localhost:8080/source/Bocenago> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Bocenago" .
+
+<http://localhost:8080/source/Bondone> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Bondone" .
+<http://localhost:8080/source/Bondone> <http://www.co-ode.org/ontologies/ont.owl#has_area> "19" .
+<http://localhost:8080/source/Bondone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Borgo%20Chiese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Borgo%20Chiese> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Borgo Chiese" .
+<http://localhost:8080/source/Borgo%20Chiese> <http://www.co-ode.org/ontologies/ont.owl#has_area> "53.7" .
+
+<http://localhost:8080/source/Borgo%20Lares> <http://www.co-ode.org/ontologies/ont.owl#has_area> "22.6" .
+<http://localhost:8080/source/Borgo%20Lares> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Borgo Lares" .
+<http://localhost:8080/source/Borgo%20Lares> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Borgo%20Valsugana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Borgo%20Valsugana> <http://www.co-ode.org/ontologies/ont.owl#has_area> "52" .
+<http://localhost:8080/source/Borgo%20Valsugana> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Borgo Valsugana" .
+
+<http://localhost:8080/source/Brentonico> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Brentonico" .
+<http://localhost:8080/source/Brentonico> <http://www.co-ode.org/ontologies/ont.owl#has_area> "62" .
+<http://localhost:8080/source/Brentonico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Bresimo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "41" .
+<http://localhost:8080/source/Bresimo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Bresimo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Bresimo" .
+
+<http://localhost:8080/source/Brez> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Brez" .
+<http://localhost:8080/source/Brez> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Brez> <http://www.co-ode.org/ontologies/ont.owl#has_area> "18" .
+
+<http://localhost:8080/source/Caderzone%20Terme> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Caderzone Terme" .
+<http://localhost:8080/source/Caderzone%20Terme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Caderzone%20Terme> <http://www.co-ode.org/ontologies/ont.owl#has_area> "18" .
+
+<http://localhost:8080/source/Cagnò> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Cagnò> <http://www.co-ode.org/ontologies/ont.owl#has_area> "3" .
+<http://localhost:8080/source/Cagnò> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Cagnò" .
+
+<http://localhost:8080/source/Calceranica%20al%20Lago> <http://www.co-ode.org/ontologies/ont.owl#has_area> "3.4" .
+<http://localhost:8080/source/Calceranica%20al%20Lago> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Calceranica%20al%20Lago> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Calceranica al Lago" .
+
+<http://localhost:8080/source/Caldes> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Caldes" .
+<http://localhost:8080/source/Caldes> <http://www.co-ode.org/ontologies/ont.owl#has_area> "20" .
+<http://localhost:8080/source/Caldes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Caldonazzo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "21.46" .
+<http://localhost:8080/source/Caldonazzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Caldonazzo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Caldonazzo" .
+
+<http://localhost:8080/source/Calliano> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Calliano" .
+<http://localhost:8080/source/Calliano> <http://www.co-ode.org/ontologies/ont.owl#has_area> "10.16" .
+<http://localhost:8080/source/Calliano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Campitello%20di%20Fassa> <http://www.co-ode.org/ontologies/ont.owl#has_area> "25" .
+<http://localhost:8080/source/Campitello%20di%20Fassa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Campitello%20di%20Fassa> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Campitello di Fassa" .
+
+<http://localhost:8080/source/Campodenno> <http://www.co-ode.org/ontologies/ont.owl#has_area> "25" .
+<http://localhost:8080/source/Campodenno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Campodenno> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Campodenno" .
+
+<http://localhost:8080/source/Canal%20San%20Bovo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Canal San Bovo" .
+<http://localhost:8080/source/Canal%20San%20Bovo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "125" .
+<http://localhost:8080/source/Canal%20San%20Bovo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Canazei> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Canazei> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Canazei" .
+<http://localhost:8080/source/Canazei> <http://www.co-ode.org/ontologies/ont.owl#has_area> "67" .
+
+<http://localhost:8080/source/Capriana> <http://www.co-ode.org/ontologies/ont.owl#has_area> "13" .
+<http://localhost:8080/source/Capriana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Capriana> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Capriana" .
+
+<http://localhost:8080/source/Carano> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Carano" .
+<http://localhost:8080/source/Carano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Carano> <http://www.co-ode.org/ontologies/ont.owl#has_area> "13" .
+
+<http://localhost:8080/source/Carisolo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "24" .
+<http://localhost:8080/source/Carisolo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Carisolo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Carisolo" .
+
+<http://localhost:8080/source/Carzano> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Carzano" .
+<http://localhost:8080/source/Carzano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Carzano> <http://www.co-ode.org/ontologies/ont.owl#has_area> "1.71" .
+
+<http://localhost:8080/source/Castel%20Condino> <http://www.co-ode.org/ontologies/ont.owl#has_area> "11" .
+<http://localhost:8080/source/Castel%20Condino> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Castel Condino" .
+<http://localhost:8080/source/Castel%20Condino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Castel%20Ivano> <http://www.co-ode.org/ontologies/ont.owl#has_area> "34.8" .
+<http://localhost:8080/source/Castel%20Ivano> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Castel Ivano" .
+<http://localhost:8080/source/Castel%20Ivano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Castelfondo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "25.7" .
+<http://localhost:8080/source/Castelfondo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Castelfondo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Castelfondo" .
+
+<http://localhost:8080/source/Castello-Molina%20di%20Fiemme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Castello-Molina%20di%20Fiemme> <http://www.co-ode.org/ontologies/ont.owl#has_area> "54.48" .
+<http://localhost:8080/source/Castello-Molina%20di%20Fiemme> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Castello-Molina di Fiemme" .
+
+<http://localhost:8080/source/Castello%20Tesino> <http://www.co-ode.org/ontologies/ont.owl#has_area> "112" .
+<http://localhost:8080/source/Castello%20Tesino> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Castello Tesino" .
+<http://localhost:8080/source/Castello%20Tesino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Castelnuovo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Castelnuovo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "13.45" .
+<http://localhost:8080/source/Castelnuovo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Castelnuovo" .
+
+<http://localhost:8080/source/Cavalese> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Cavalese" .
+<http://localhost:8080/source/Cavalese> <http://www.co-ode.org/ontologies/ont.owl#has_area> "45" .
+<http://localhost:8080/source/Cavalese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Cavareno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Cavareno> <http://www.co-ode.org/ontologies/ont.owl#has_area> "9" .
+<http://localhost:8080/source/Cavareno> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Cavareno" .
+
+<http://localhost:8080/source/Cavedago> <http://www.co-ode.org/ontologies/ont.owl#has_area> "9" .
+<http://localhost:8080/source/Cavedago> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Cavedago> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Cavedago" .
+
+<http://localhost:8080/source/Cavedine> <http://www.co-ode.org/ontologies/ont.owl#has_area> "38" .
+<http://localhost:8080/source/Cavedine> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Cavedine" .
+<http://localhost:8080/source/Cavedine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Cavizzana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Cavizzana> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Cavizzana" .
+<http://localhost:8080/source/Cavizzana> <http://www.co-ode.org/ontologies/ont.owl#has_area> "3" .
+
+<http://localhost:8080/source/Cembra%20Lisignago> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Cembra Lisignago" .
+<http://localhost:8080/source/Cembra%20Lisignago> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Cembra%20Lisignago> <http://www.co-ode.org/ontologies/ont.owl#has_area> "24.11" .
+
+<http://localhost:8080/source/Cimone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Cimone> <http://www.co-ode.org/ontologies/ont.owl#has_area> "9" .
+<http://localhost:8080/source/Cimone> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Cimone" .
+
+<http://localhost:8080/source/Cinte%20Tesino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Cinte%20Tesino> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Cinte Tesino" .
+<http://localhost:8080/source/Cinte%20Tesino> <http://www.co-ode.org/ontologies/ont.owl#has_area> "25" .
+
+<http://localhost:8080/source/Cis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Cis> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Cis" .
+<http://localhost:8080/source/Cis> <http://www.co-ode.org/ontologies/ont.owl#has_area> "5" .
+
+<http://localhost:8080/source/Civezzano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Civezzano> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Civezzano" .
+<http://localhost:8080/source/Civezzano> <http://www.co-ode.org/ontologies/ont.owl#has_area> "15.52" .
+
+<http://localhost:8080/source/Cles> <http://www.co-ode.org/ontologies/ont.owl#has_area> "39" .
+<http://localhost:8080/source/Cles> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Cles" .
+<http://localhost:8080/source/Cles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Cloz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Cloz> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Cloz" .
+<http://localhost:8080/source/Cloz> <http://www.co-ode.org/ontologies/ont.owl#has_area> "8" .
+
+<http://localhost:8080/source/Comano%20Terme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Comano%20Terme> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Comano Terme" .
+<http://localhost:8080/source/Comano%20Terme> <http://www.co-ode.org/ontologies/ont.owl#has_area> "67.69" .
+
+<http://localhost:8080/source/Commezzadura> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Commezzadura> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Commezzadura" .
+<http://localhost:8080/source/Commezzadura> <http://www.co-ode.org/ontologies/ont.owl#has_area> "22.5" .
+
+<http://localhost:8080/source/Contà> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Contà" .
+<http://localhost:8080/source/Contà> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Contà> <http://www.co-ode.org/ontologies/ont.owl#has_area> "19.5" .
+
+<http://localhost:8080/source/Croviana> <http://www.co-ode.org/ontologies/ont.owl#has_area> "5" .
+<http://localhost:8080/source/Croviana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Croviana> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Croviana" .
+
+<http://localhost:8080/source/Daiano> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Daiano" .
+<http://localhost:8080/source/Daiano> <http://www.co-ode.org/ontologies/ont.owl#has_area> "9" .
+<http://localhost:8080/source/Daiano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Dambel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Dambel> <http://www.co-ode.org/ontologies/ont.owl#has_area> "5" .
+<http://localhost:8080/source/Dambel> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Dambel" .
+
+<http://localhost:8080/source/Denno> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Denno" .
+<http://localhost:8080/source/Denno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Denno> <http://www.co-ode.org/ontologies/ont.owl#has_area> "10" .
+
+<http://localhost:8080/source/Dimaro%20Folgarida> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Dimaro Folgarida" .
+<http://localhost:8080/source/Dimaro%20Folgarida> <http://www.co-ode.org/ontologies/ont.owl#has_area> "36.53" .
+<http://localhost:8080/source/Dimaro%20Folgarida> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Drena> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Drena> <http://www.co-ode.org/ontologies/ont.owl#has_area> "8" .
+<http://localhost:8080/source/Drena> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Drena" .
+
+<http://localhost:8080/source/Dro> <http://www.co-ode.org/ontologies/ont.owl#has_area> "27" .
+<http://localhost:8080/source/Dro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Dro> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Dro" .
+
+<http://localhost:8080/source/Faedo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "10" .
+<http://localhost:8080/source/Faedo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Faedo" .
+<http://localhost:8080/source/Faedo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Fai%20della%20Paganella> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Fai%20della%20Paganella> <http://www.co-ode.org/ontologies/ont.owl#has_area> "12.15" .
+<http://localhost:8080/source/Fai%20della%20Paganella> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Fai della Paganella" .
+
+<http://localhost:8080/source/Fiavè> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Fiavè" .
+<http://localhost:8080/source/Fiavè> <http://www.co-ode.org/ontologies/ont.owl#has_area> "24" .
+<http://localhost:8080/source/Fiavè> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Fierozzo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "17.94" .
+<http://localhost:8080/source/Fierozzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Fierozzo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Fierozzo" .
+
+<http://localhost:8080/source/Folgaria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Folgaria> <http://www.co-ode.org/ontologies/ont.owl#has_area> "71" .
+<http://localhost:8080/source/Folgaria> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Folgaria" .
+
+<http://localhost:8080/source/Fondo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "30.75" .
+<http://localhost:8080/source/Fondo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Fondo" .
+<http://localhost:8080/source/Fondo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Fornace> <http://www.co-ode.org/ontologies/ont.owl#has_area> "7.24" .
+<http://localhost:8080/source/Fornace> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Fornace" .
+<http://localhost:8080/source/Fornace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Frassilongo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Frassilongo" .
+<http://localhost:8080/source/Frassilongo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Frassilongo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "16.71" .
+
+<http://localhost:8080/source/Garniga%20Terme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Garniga%20Terme> <http://www.co-ode.org/ontologies/ont.owl#has_area> "13.07" .
+<http://localhost:8080/source/Garniga%20Terme> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Garniga Terme" .
+
+<http://localhost:8080/source/Giovo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "20.79" .
+<http://localhost:8080/source/Giovo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Giovo" .
+<http://localhost:8080/source/Giovo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Giustino> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Giustino" .
+<http://localhost:8080/source/Giustino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Giustino> <http://www.co-ode.org/ontologies/ont.owl#has_area> "40.1" .
+
+<http://localhost:8080/source/Grigno> <http://www.co-ode.org/ontologies/ont.owl#has_area> "46.41" .
+<http://localhost:8080/source/Grigno> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Grigno" .
+<http://localhost:8080/source/Grigno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Imer> <http://www.co-ode.org/ontologies/ont.owl#has_area> "27.6" .
+<http://localhost:8080/source/Imer> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Imer" .
+<http://localhost:8080/source/Imer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Isera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Isera> <http://www.co-ode.org/ontologies/ont.owl#has_area> "14.1" .
+<http://localhost:8080/source/Isera> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Isera" .
+
+<http://localhost:8080/source/Lavarone> <http://www.co-ode.org/ontologies/ont.owl#has_area> "26.3" .
+<http://localhost:8080/source/Lavarone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Lavarone> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Lavarone" .
+
+<http://localhost:8080/source/Lavis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Lavis> <http://www.co-ode.org/ontologies/ont.owl#has_area> "12.44" .
+<http://localhost:8080/source/Lavis> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Lavis" .
+
+<http://localhost:8080/source/Ledro> <http://www.co-ode.org/ontologies/ont.owl#has_area> "154.6" .
+<http://localhost:8080/source/Ledro> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Ledro" .
+<http://localhost:8080/source/Ledro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Levico%20Terme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Levico%20Terme> <http://www.co-ode.org/ontologies/ont.owl#has_area> "62.9" .
+<http://localhost:8080/source/Levico%20Terme> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Levico Terme" .
+
+<http://localhost:8080/source/Livo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Livo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "15.2" .
+<http://localhost:8080/source/Livo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Livo" .
+
+<http://localhost:8080/source/Lona-Lases> <http://www.co-ode.org/ontologies/ont.owl#has_area> "11.4" .
+<http://localhost:8080/source/Lona-Lases> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Lona-Lases" .
+<http://localhost:8080/source/Lona-Lases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Luserna> <http://www.co-ode.org/ontologies/ont.owl#has_area> "8.2" .
+<http://localhost:8080/source/Luserna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Luserna> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Luserna" .
+
+<http://localhost:8080/source/Madruzzo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "28.9" .
+<http://localhost:8080/source/Madruzzo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Madruzzo" .
+<http://localhost:8080/source/Madruzzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Malè> <http://www.co-ode.org/ontologies/ont.owl#has_area> "26.2" .
+<http://localhost:8080/source/Malè> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Malè" .
+<http://localhost:8080/source/Malè> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Malosco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Malosco> <http://www.co-ode.org/ontologies/ont.owl#has_area> "6.75" .
+<http://localhost:8080/source/Malosco> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Malosco" .
+
+<http://localhost:8080/source/Massimeno> <http://www.co-ode.org/ontologies/ont.owl#has_area> "21.4" .
+<http://localhost:8080/source/Massimeno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Massimeno> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Massimeno" .
+
+<http://localhost:8080/source/Mazzin> <http://www.co-ode.org/ontologies/ont.owl#has_area> "23.7" .
+<http://localhost:8080/source/Mazzin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Mazzin> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Mazzin" .
+
+<http://localhost:8080/source/Mezzana> <http://www.co-ode.org/ontologies/ont.owl#has_area> "27.3" .
+<http://localhost:8080/source/Mezzana> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Mezzana" .
+<http://localhost:8080/source/Mezzana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Mezzano> <http://www.co-ode.org/ontologies/ont.owl#has_area> "48.9" .
+<http://localhost:8080/source/Mezzano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Mezzano> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Mezzano" .
+
+<http://localhost:8080/source/Mezzocorona> <http://www.co-ode.org/ontologies/ont.owl#has_area> "25" .
+<http://localhost:8080/source/Mezzocorona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Mezzocorona> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Mezzocorona" .
+
+<http://localhost:8080/source/Mezzolombardo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "13.8" .
+<http://localhost:8080/source/Mezzolombardo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Mezzolombardo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Mezzolombardo" .
+
+<http://localhost:8080/source/Moena> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Moena> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Moena" .
+<http://localhost:8080/source/Moena> <http://www.co-ode.org/ontologies/ont.owl#has_area> "82.6" .
+
+<http://localhost:8080/source/Molveno> <http://www.co-ode.org/ontologies/ont.owl#has_area> "35.2" .
+<http://localhost:8080/source/Molveno> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Molveno" .
+<http://localhost:8080/source/Molveno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Mori> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Mori> <http://www.co-ode.org/ontologies/ont.owl#has_area> "34.5" .
+<http://localhost:8080/source/Mori> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Mori" .
+
+<http://localhost:8080/source/Nago-Torbole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Nago-Torbole> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Nago-Torbole" .
+<http://localhost:8080/source/Nago-Torbole> <http://www.co-ode.org/ontologies/ont.owl#has_area> "28.4" .
+
+<http://localhost:8080/source/Nave%20San%20Rocco> <http://www.co-ode.org/ontologies/ont.owl#has_area> "4.9" .
+<http://localhost:8080/source/Nave%20San%20Rocco> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Nave San Rocco" .
+<http://localhost:8080/source/Nave%20San%20Rocco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Nogaredo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Nogaredo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "3.64" .
+<http://localhost:8080/source/Nogaredo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Nogaredo" .
+
+<http://localhost:8080/source/Nomi> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Nomi" .
+<http://localhost:8080/source/Nomi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Nomi> <http://www.co-ode.org/ontologies/ont.owl#has_area> "6.5" .
+
+<http://localhost:8080/source/Novaledo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Novaledo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "8" .
+<http://localhost:8080/source/Novaledo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Novaledo" .
+
+<http://localhost:8080/source/Ospedaletto> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Ospedaletto" .
+<http://localhost:8080/source/Ospedaletto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Ospedaletto> <http://www.co-ode.org/ontologies/ont.owl#has_area> "16.8" .
+
+<http://localhost:8080/source/Ossana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Ossana> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Ossana" .
+<http://localhost:8080/source/Ossana> <http://www.co-ode.org/ontologies/ont.owl#has_area> "25.2" .
+
+<http://localhost:8080/source/Palù%20del%20Fersina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Palù%20del%20Fersina> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Palù del Fersina" .
+<http://localhost:8080/source/Palù%20del%20Fersina> <http://www.co-ode.org/ontologies/ont.owl#has_area> "16.7" .
+
+<http://localhost:8080/source/Panchià> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Panchià> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Panchià" .
+<http://localhost:8080/source/Panchià> <http://www.co-ode.org/ontologies/ont.owl#has_area> "20.2" .
+
+<http://localhost:8080/source/Peio> <http://www.co-ode.org/ontologies/ont.owl#has_area> "160.3" .
+<http://localhost:8080/source/Peio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Peio> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Peio" .
+
+<http://localhost:8080/source/Pellizzano> <http://www.co-ode.org/ontologies/ont.owl#has_area> "39.9" .
+<http://localhost:8080/source/Pellizzano> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Pellizzano" .
+<http://localhost:8080/source/Pellizzano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Pelugo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Pelugo" .
+<http://localhost:8080/source/Pelugo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "22.9" .
+<http://localhost:8080/source/Pelugo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Pergine%20Valsugana> <http://www.co-ode.org/ontologies/ont.owl#has_area> "54.4" .
+<http://localhost:8080/source/Pergine%20Valsugana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Pergine%20Valsugana> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Pergine Valsugana" .
+
+<http://localhost:8080/source/Pieve%20di%20Bono-Prezzo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Pieve di Bono-Prezzo" .
+<http://localhost:8080/source/Pieve%20di%20Bono-Prezzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Pieve%20di%20Bono-Prezzo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "24.7" .
+
+<http://localhost:8080/source/Pieve%20Tesino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Pieve%20Tesino> <http://www.co-ode.org/ontologies/ont.owl#has_area> "73.5" .
+<http://localhost:8080/source/Pieve%20Tesino> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Pieve Tesino" .
+
+<http://localhost:8080/source/Pinzolo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Pinzolo" .
+<http://localhost:8080/source/Pinzolo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Pinzolo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "69.3" .
+
+<http://localhost:8080/source/Pomarolo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Pomarolo" .
+<http://localhost:8080/source/Pomarolo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "9.3" .
+<http://localhost:8080/source/Pomarolo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Porte%20di%20Rendena> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Porte%20di%20Rendena> <http://www.co-ode.org/ontologies/ont.owl#has_area> "40.7" .
+<http://localhost:8080/source/Porte%20di%20Rendena> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Porte di Rendena" .
+
+<http://localhost:8080/source/Predaia> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Predaia" .
+<http://localhost:8080/source/Predaia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Predaia> <http://www.co-ode.org/ontologies/ont.owl#has_area> "80.05" .
+
+<http://localhost:8080/source/Predazzo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Predazzo" .
+<http://localhost:8080/source/Predazzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Predazzo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "109.84" .
+
+<http://localhost:8080/source/Primiero%20San%20Martino%20di%20Castrozza> <http://www.co-ode.org/ontologies/ont.owl#has_area> "200.1" .
+<http://localhost:8080/source/Primiero%20San%20Martino%20di%20Castrozza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Primiero%20San%20Martino%20di%20Castrozza> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Primiero San Martino di Castrozza" .
+
+<http://localhost:8080/source/Rabbi> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Rabbi" .
+<http://localhost:8080/source/Rabbi> <http://www.co-ode.org/ontologies/ont.owl#has_area> "132.4" .
+<http://localhost:8080/source/Rabbi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Revò> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Revò" .
+<http://localhost:8080/source/Revò> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Revò> <http://www.co-ode.org/ontologies/ont.owl#has_area> "13.44" .
+
+<http://localhost:8080/source/Riva%20del%20Garda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Riva%20del%20Garda> <http://www.co-ode.org/ontologies/ont.owl#has_area> "42.45" .
+<http://localhost:8080/source/Riva%20del%20Garda> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Riva del Garda" .
+
+<http://localhost:8080/source/Romallo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Romallo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Romallo" .
+<http://localhost:8080/source/Romallo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "2.4" .
+
+<http://localhost:8080/source/Romeno> <http://www.co-ode.org/ontologies/ont.owl#has_area> "9.1" .
+<http://localhost:8080/source/Romeno> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Romeno" .
+<http://localhost:8080/source/Romeno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Roncegno%20Terme> <http://www.co-ode.org/ontologies/ont.owl#has_area> "38.05" .
+<http://localhost:8080/source/Roncegno%20Terme> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Roncegno Terme" .
+<http://localhost:8080/source/Roncegno%20Terme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Ronchi%20Valsugana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Ronchi%20Valsugana> <http://www.co-ode.org/ontologies/ont.owl#has_area> "9.99" .
+<http://localhost:8080/source/Ronchi%20Valsugana> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Ronchi Valsugana" .
+
+<http://localhost:8080/source/Ronzo-Chienis> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Ronzo-Chienis" .
+<http://localhost:8080/source/Ronzo-Chienis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Ronzo-Chienis> <http://www.co-ode.org/ontologies/ont.owl#has_area> "13.2" .
+
+<http://localhost:8080/source/Ronzone> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Ronzone" .
+<http://localhost:8080/source/Ronzone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Ronzone> <http://www.co-ode.org/ontologies/ont.owl#has_area> "5.3" .
+
+<http://localhost:8080/source/Roverè%20della%20Luna> <http://www.co-ode.org/ontologies/ont.owl#has_area> "10.4" .
+<http://localhost:8080/source/Roverè%20della%20Luna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Roverè%20della%20Luna> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Roverè della Luna" .
+
+<http://localhost:8080/source/Rovereto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Rovereto> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Rovereto" .
+<http://localhost:8080/source/Rovereto> <http://www.co-ode.org/ontologies/ont.owl#has_area> "50.9" .
+
+<http://localhost:8080/source/Ruffrè-Mendola> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Ruffrè-Mendola> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Ruffrè-Mendola" .
+<http://localhost:8080/source/Ruffrè-Mendola> <http://www.co-ode.org/ontologies/ont.owl#has_area> "6" .
+
+<http://localhost:8080/source/Rumo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Rumo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "30.8" .
+<http://localhost:8080/source/Rumo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Rumo" .
+
+<http://localhost:8080/source/Sagron%20Mis> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Sagron Mis" .
+<http://localhost:8080/source/Sagron%20Mis> <http://www.co-ode.org/ontologies/ont.owl#has_area> "11.2" .
+<http://localhost:8080/source/Sagron%20Mis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Samone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Samone> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Samone" .
+<http://localhost:8080/source/Samone> <http://www.co-ode.org/ontologies/ont.owl#has_area> "4.9" .
+
+<http://localhost:8080/source/San%20Lorenzo%20Dorsino> <http://www.co-ode.org/ontologies/ont.owl#has_area> "73.9" .
+<http://localhost:8080/source/San%20Lorenzo%20Dorsino> <http://www.co-ode.org/ontologies/ont.owl#has_name> "San Lorenzo Dorsino" .
+<http://localhost:8080/source/San%20Lorenzo%20Dorsino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/San%20Michele%20all%27Adige> <http://www.co-ode.org/ontologies/ont.owl#has_area> "5.3" .
+<http://localhost:8080/source/San%20Michele%20all%27Adige> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/San%20Michele%20all%27Adige> <http://www.co-ode.org/ontologies/ont.owl#has_name> "San Michele all'Adige" .
+
+<http://localhost:8080/source/Sant%27Orsola%20Terme> <http://www.co-ode.org/ontologies/ont.owl#has_area> "15.4" .
+<http://localhost:8080/source/Sant%27Orsola%20Terme> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Sant'Orsola Terme" .
+<http://localhost:8080/source/Sant%27Orsola%20Terme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Sanzeno> <http://www.co-ode.org/ontologies/ont.owl#has_area> "8" .
+<http://localhost:8080/source/Sanzeno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Sanzeno> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Sanzeno" .
+
+<http://localhost:8080/source/Sarnonico> <http://www.co-ode.org/ontologies/ont.owl#has_area> "12.1" .
+<http://localhost:8080/source/Sarnonico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Sarnonico> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Sarnonico" .
+
+<http://localhost:8080/source/Scurelle> <http://www.co-ode.org/ontologies/ont.owl#has_area> "29.9" .
+<http://localhost:8080/source/Scurelle> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Scurelle" .
+<http://localhost:8080/source/Scurelle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Segonzano> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Segonzano" .
+<http://localhost:8080/source/Segonzano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Segonzano> <http://www.co-ode.org/ontologies/ont.owl#has_area> "20.8" .
+
+<http://localhost:8080/source/Sella%20Giudicarie> <http://www.co-ode.org/ontologies/ont.owl#has_area> "85.8" .
+<http://localhost:8080/source/Sella%20Giudicarie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Sella%20Giudicarie> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Sella Giudicarie" .
+
+<http://localhost:8080/source/San%20Giovanni%20di%20Fassa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/San%20Giovanni%20di%20Fassa> <http://www.co-ode.org/ontologies/ont.owl#has_area> "99.82" .
+<http://localhost:8080/source/San%20Giovanni%20di%20Fassa> <http://www.co-ode.org/ontologies/ont.owl#has_name> "San Giovanni di Fassa" .
+
+<http://localhost:8080/source/Sfruz> <http://www.co-ode.org/ontologies/ont.owl#has_area> "11.7" .
+<http://localhost:8080/source/Sfruz> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Sfruz" .
+<http://localhost:8080/source/Sfruz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Soraga%20di%20Fassa> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Soraga di Fassa" .
+<http://localhost:8080/source/Soraga%20di%20Fassa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Soraga%20di%20Fassa> <http://www.co-ode.org/ontologies/ont.owl#has_area> "19.6" .
+
+<http://localhost:8080/source/Sover> <http://www.co-ode.org/ontologies/ont.owl#has_area> "14.7" .
+<http://localhost:8080/source/Sover> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Sover> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Sover" .
+
+<http://localhost:8080/source/Spiazzo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Spiazzo" .
+<http://localhost:8080/source/Spiazzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Spiazzo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "70.6" .
+
+<http://localhost:8080/source/Spormaggiore> <http://www.co-ode.org/ontologies/ont.owl#has_area> "30.2" .
+<http://localhost:8080/source/Spormaggiore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Spormaggiore> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Spormaggiore" .
+
+<http://localhost:8080/source/Sporminore> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Sporminore" .
+<http://localhost:8080/source/Sporminore> <http://www.co-ode.org/ontologies/ont.owl#has_area> "17.5" .
+<http://localhost:8080/source/Sporminore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Stenico> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Stenico" .
+<http://localhost:8080/source/Stenico> <http://www.co-ode.org/ontologies/ont.owl#has_area> "49.8" .
+<http://localhost:8080/source/Stenico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Storo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "62.9" .
+<http://localhost:8080/source/Storo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Storo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Storo" .
+
+<http://localhost:8080/source/Strembo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Strembo" .
+<http://localhost:8080/source/Strembo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "38.3" .
+<http://localhost:8080/source/Strembo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Telve> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Telve" .
+<http://localhost:8080/source/Telve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Telve> <http://www.co-ode.org/ontologies/ont.owl#has_area> "64.8" .
+
+<http://localhost:8080/source/Telve%20di%20Sopra> <http://www.co-ode.org/ontologies/ont.owl#has_area> "17.8" .
+<http://localhost:8080/source/Telve%20di%20Sopra> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Telve di Sopra" .
+<http://localhost:8080/source/Telve%20di%20Sopra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Tenna> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Tenna" .
+<http://localhost:8080/source/Tenna> <http://www.co-ode.org/ontologies/ont.owl#has_area> "3.1" .
+<http://localhost:8080/source/Tenna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Tenno> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Tenno" .
+<http://localhost:8080/source/Tenno> <http://www.co-ode.org/ontologies/ont.owl#has_area> "28.3" .
+<http://localhost:8080/source/Tenno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Terragnolo> <http://www.co-ode.org/ontologies/ont.owl#has_area> "39.4" .
+<http://localhost:8080/source/Terragnolo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Terragnolo> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Terragnolo" .
+
+<http://localhost:8080/source/Terzolas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Terzolas> <http://www.co-ode.org/ontologies/ont.owl#has_area> "5.4" .
+<http://localhost:8080/source/Terzolas> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Terzolas" .
+
+<http://localhost:8080/source/Tesero> <http://www.co-ode.org/ontologies/ont.owl#has_area> "50" .
+<http://localhost:8080/source/Tesero> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Tesero" .
+<http://localhost:8080/source/Tesero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Tione%20di%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Tione%20di%20Trento> <http://www.co-ode.org/ontologies/ont.owl#has_area> "33.3" .
+<http://localhost:8080/source/Tione%20di%20Trento> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Tione di Trento" .
+
+<http://localhost:8080/source/Ton> <http://www.co-ode.org/ontologies/ont.owl#has_area> "26.4" .
+<http://localhost:8080/source/Ton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Ton> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Ton" .
+
+<http://localhost:8080/source/Torcegno> <http://www.co-ode.org/ontologies/ont.owl#has_area> "15.2" .
+<http://localhost:8080/source/Torcegno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Torcegno> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Torcegno" .
+
+<http://localhost:8080/source/Trambileno> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Trambileno" .
+<http://localhost:8080/source/Trambileno> <http://www.co-ode.org/ontologies/ont.owl#has_area> "50.3" .
+<http://localhost:8080/source/Trambileno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Tre%20Ville> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Tre Ville" .
+<http://localhost:8080/source/Tre%20Ville> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Tre%20Ville> <http://www.co-ode.org/ontologies/ont.owl#has_area> "81.5" .
+
+<http://localhost:8080/source/Trent> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Trent" .
+<http://localhost:8080/source/Trent> <http://www.co-ode.org/ontologies/ont.owl#has_area> "157.9" .
+<http://localhost:8080/source/Trent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Valdaone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Valdaone> <http://www.co-ode.org/ontologies/ont.owl#has_area> "177.1" .
+<http://localhost:8080/source/Valdaone> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Valdaone" .
+
+<http://localhost:8080/source/Valfloriana> <http://www.co-ode.org/ontologies/ont.owl#has_area> "39.4" .
+<http://localhost:8080/source/Valfloriana> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Valfloriana" .
+<http://localhost:8080/source/Valfloriana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Vallarsa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Vallarsa> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Vallarsa" .
+<http://localhost:8080/source/Vallarsa> <http://www.co-ode.org/ontologies/ont.owl#has_area> "78.3" .
+
+<http://localhost:8080/source/Vallelaghi> <http://www.co-ode.org/ontologies/ont.owl#has_area> "72.5" .
+<http://localhost:8080/source/Vallelaghi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Vallelaghi> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Vallelaghi" .
+
+<http://localhost:8080/source/Varena> <http://www.co-ode.org/ontologies/ont.owl#has_area> "23.2" .
+<http://localhost:8080/source/Varena> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Varena> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Varena" .
+
+<http://localhost:8080/source/Vermiglio> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Vermiglio" .
+<http://localhost:8080/source/Vermiglio> <http://www.co-ode.org/ontologies/ont.owl#has_area> "103.7" .
+<http://localhost:8080/source/Vermiglio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Vignola-Falesina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Vignola-Falesina> <http://www.co-ode.org/ontologies/ont.owl#has_area> "12" .
+<http://localhost:8080/source/Vignola-Falesina> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Vignola-Falesina" .
+
+<http://localhost:8080/source/Villa%20Lagarina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Villa%20Lagarina> <http://www.co-ode.org/ontologies/ont.owl#has_area> "24.1" .
+<http://localhost:8080/source/Villa%20Lagarina> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Villa Lagarina" .
+
+<http://localhost:8080/source/Ville%20d%27Anaunia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Ville%20d%27Anaunia> <http://www.co-ode.org/ontologies/ont.owl#has_area> "89.1" .
+<http://localhost:8080/source/Ville%20d%27Anaunia> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Ville d'Anaunia" .
+
+<http://localhost:8080/source/Volano> <http://www.co-ode.org/ontologies/ont.owl#has_area> "10.8" .
+<http://localhost:8080/source/Volano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Volano> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Volano" .
+
+<http://localhost:8080/source/Zambana> <http://www.co-ode.org/ontologies/ont.owl#has_area> "11.7" .
+<http://localhost:8080/source/Zambana> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Zambana" .
+<http://localhost:8080/source/Zambana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+
+<http://localhost:8080/source/Ziano%20di%20Fiemme> <http://www.co-ode.org/ontologies/ont.owl#has_name> "Ziano di Fiemme" .
+<http://localhost:8080/source/Ziano%20di%20Fiemme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Comune> .
+<http://localhost:8080/source/Ziano%20di%20Fiemme> <http://www.co-ode.org/ontologies/ont.owl#has_area> "35.8" .
+

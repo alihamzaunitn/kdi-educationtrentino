@@ -1,0 +1,508 @@
+<http://localhost:8080/source/LICEO%20"A.%20Maffei"%20-%20RIVA%20DEL%20GARDA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/ZAMBONI%20ANTONIA> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/LICEO%20"A.%20Maffei"%20-%20RIVA%20DEL%20GARDA> .
+<http://localhost:8080/source/LICEO%20"A.%20Maffei"%20-%20RIVA%20DEL%20GARDA> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0464/552316" .
+<http://localhost:8080/source/LICEO%20"A.%20Maffei"%20-%20RIVA%20DEL%20GARDA> <http://www.co-ode.org/ontologies/ont.owl#has_name> "LICEO \"A. Maffei\" - RIVA DEL GARDA" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ZAMBONI%20ANTONIA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/LICEO%20"A.%20Maffei"%20-%20RIVA%20DEL%20GARDA> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0464/552316" .
+<http://localhost:8080/source/LICEO%20"A.%20Maffei"%20-%20RIVA%20DEL%20GARDA> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIALE  F.A. LUTTI" .
+<http://localhost:8080/source/LICEO%20"A.%20Maffei"%20-%20RIVA%20DEL%20GARDA> <http://www.co-ode.org/ontologies/ont.owl#has_email> "maffei@pec.provincia.tn.it" .
+
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20RONCEGNO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20RONCEGNO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/771046" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/FORENZA%20SALVATORE> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20RONCEGNO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA F. MEGGIO" .
+<http://localhost:8080/source/FORENZA%20SALVATORE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20RONCEGNO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/764581" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20RONCEGNO> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20RONCEGNO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO COMPRENSIVO RONCEGNO" .
+
+<http://localhost:8080/source/COOPERATIVA%20SOCIALE%20A%20R.L.%20G.VERONESI%20-%20ROVERETO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/COOPERATIVA%20SOCIALE%20A%20R.L.%20G.VERONESI%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0464/434047" .
+<http://localhost:8080/source/OLIVIA%20OLIVO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/COOPERATIVA%20SOCIALE%20A%20R.L.%20G.VERONESI%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "scuolaveronesi@pec.cooperazionetrentina.it" .
+<http://localhost:8080/source/COOPERATIVA%20SOCIALE%20A%20R.L.%20G.VERONESI%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0464/458179" .
+<http://localhost:8080/source/COOPERATIVA%20SOCIALE%20A%20R.L.%20G.VERONESI%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA SAIBANTI" .
+<http://localhost:8080/source/COOPERATIVA%20SOCIALE%20A%20R.L.%20G.VERONESI%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "COOPERATIVA SOCIALE A R.L. G.VERONESI - ROVERETO" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/OLIVIA%20OLIVO> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/COOPERATIVA%20SOCIALE%20A%20R.L.%20G.VERONESI%20-%20ROVERETO> .
+
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ISERA%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIALE VITTORIA" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ISERA%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0464/489616" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ISERA%20-%20ROVERETO> .
+<http://localhost:8080/source/SANTOLI%20GIUSEPPE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ISERA%20-%20ROVERETO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ISERA%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "ic.isera-rovereto@pec.provincia.tn.it" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ISERA%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0464/431515" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ISERA%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO COMPRENSIVO ISERA - ROVERETO" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/SANTOLI%20GIUSEPPE> .
+
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VOLANO%20-%20ROVERETO%20NORD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/MARCHESONI%20GIOVANNA> .
+<http://localhost:8080/source/MARCHESONI%20GIOVANNA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VOLANO%20-%20ROVERETO%20NORD> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VOLANO%20-%20ROVERETO%20NORD> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0464/433683" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VOLANO%20-%20ROVERETO%20NORD> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO COMPRENSIVO VOLANO - ROVERETO NORD" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VOLANO%20-%20ROVERETO%20NORD> <http://www.co-ode.org/ontologies/ont.owl#has_address> "CORSO A.BETTINI" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VOLANO%20-%20ROVERETO%20NORD> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0464/429867" .
+
+<http://localhost:8080/source/CHEMOTTI%20TIZIANA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ROVERETO%20EST> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO COMPRENSIVO ROVERETO EST" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ROVERETO%20EST> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0464/450456" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ROVERETO%20EST> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0464/439249" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ROVERETO%20EST> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA DANTE" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ROVERETO%20EST> <http://www.co-ode.org/ontologies/ont.owl#has_email> "ic.roveretoest@pec.provincia.tn.it" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ROVERETO%20EST> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ROVERETO%20EST> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/CHEMOTTI%20TIZIANA> .
+
+<http://localhost:8080/source/AGOSTINI%20LAMBERTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/COLLEGIO%20ARCIVESCOVILE%20DAME%20INGLESI%20-%20ROVERETO> .
+<http://localhost:8080/source/COLLEGIO%20ARCIVESCOVILE%20DAME%20INGLESI%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "collegioarcivescovile@pec.it" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/AGOSTINI%20LAMBERTO> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/COLLEGIO%20ARCIVESCOVILE%20DAME%20INGLESI%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0464/406000" .
+<http://localhost:8080/source/COLLEGIO%20ARCIVESCOVILE%20DAME%20INGLESI%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "COLLEGIO ARCIVESCOVILE DAME INGLESI - ROVERETO" .
+<http://localhost:8080/source/COLLEGIO%20ARCIVESCOVILE%20DAME%20INGLESI%20-%20ROVERETO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/COLLEGIO%20ARCIVESCOVILE%20DAME%20INGLESI%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0464/406077" .
+<http://localhost:8080/source/COLLEGIO%20ARCIVESCOVILE%20DAME%20INGLESI%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "CORSO BETTINI  " .
+
+<http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20"don%20L.Milani"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA BALISTA" .
+<http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20"don%20L.Milani"%20-%20ROVERETO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20"don%20L.Milani"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0464/485511" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/SIMONCELLI%20DANIELA> .
+<http://localhost:8080/source/SIMONCELLI%20DANIELA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20"don%20L.Milani"%20-%20ROVERETO> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20"don%20L.Milani"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0464/485550" .
+<http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20"don%20L.Milani"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "donmilani@pec.provincia.tn.it" .
+<http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20"don%20L.Milani"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO DI ISTRUZIONE \"don L.Milani\" - ROVERETO" .
+
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"G.%20Marconi"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0464/419130" .
+<http://localhost:8080/source/ZOLLER%20LAURA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"G.%20Marconi"%20-%20ROVERETO> .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"G.%20Marconi"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO TECNICO TECNOLOGICO \"G. Marconi\" - ROVERETO" .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"G.%20Marconi"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "marconi@pec.provincia.tn.it" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"G.%20Marconi"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0464/411400" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/ZOLLER%20LAURA> .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"G.%20Marconi"%20-%20ROVERETO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"G.%20Marconi"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "LOC.SANT'ILARIO VIA PADRE F. MONTI" .
+
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20ECONOMICO%20E%20TECNOLOGICO%20"F.e%20G.Fontana"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0464/436100" .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20ECONOMICO%20E%20TECNOLOGICO%20"F.e%20G.Fontana"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "fontana@pec.provincia.tn.it" .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20ECONOMICO%20E%20TECNOLOGICO%20"F.e%20G.Fontana"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA DEL TEATRO" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/ANDREATTA%20FLAVIA> .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20ECONOMICO%20E%20TECNOLOGICO%20"F.e%20G.Fontana"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0464/434116" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ANDREATTA%20FLAVIA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20TECNICO%20ECONOMICO%20E%20TECNOLOGICO%20"F.e%20G.Fontana"%20-%20ROVERETO> .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20ECONOMICO%20E%20TECNOLOGICO%20"F.e%20G.Fontana"%20-%20ROVERETO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20ECONOMICO%20E%20TECNOLOGICO%20"F.e%20G.Fontana"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO TECNICO ECONOMICO E TECNOLOGICO \"F.e G.Fontana\" - ROVERETO" .
+
+<http://localhost:8080/source/LICEO%20"F.Filzi"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "CORSO A.ROSMINI" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/OBER%20MARTA> .
+<http://localhost:8080/source/OBER%20MARTA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/LICEO%20"F.Filzi"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "LICEO \"F.Filzi\" - ROVERETO" .
+<http://localhost:8080/source/LICEO%20"F.Filzi"%20-%20ROVERETO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/LICEO%20"F.Filzi"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0464/433003" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/LICEO%20"F.Filzi"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "filzi@pec.provincia.tn.it" .
+<http://localhost:8080/source/LICEO%20"F.Filzi"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0464/421223" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/LICEO%20"F.Filzi"%20-%20ROVERETO> .
+
+<http://localhost:8080/source/DE%20PASCALE%20FRANCESCO%20CARMINE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/LICEO%20"A.%20Rosmini"%20-%20ROVERETO> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/LICEO%20"A.%20Rosmini"%20-%20ROVERETO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/LICEO%20"A.%20Rosmini"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "CORSO A. BETTINI" .
+<http://localhost:8080/source/LICEO%20"A.%20Rosmini"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "LICEO \"A. Rosmini\" - ROVERETO" .
+<http://localhost:8080/source/LICEO%20"A.%20Rosmini"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "rosmini.rovereto@pec.provincia.tn.it" .
+<http://localhost:8080/source/LICEO%20"A.%20Rosmini"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0464/420025" .
+<http://localhost:8080/source/LICEO%20"A.%20Rosmini"%20-%20ROVERETO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0464/437700" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/DE%20PASCALE%20FRANCESCO%20CARMINE> .
+
+<http://localhost:8080/source/FONDAZIONE%20EDMUND%20MACH%20-%20ISTITUTO%20AGRARIO%20SAN%20MICHELE%20ALL%27ADIGE> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/615213" .
+<http://localhost:8080/source/FONDAZIONE%20EDMUND%20MACH%20-%20ISTITUTO%20AGRARIO%20SAN%20MICHELE%20ALL%27ADIGE> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA E. MACH" .
+<http://localhost:8080/source/FONDAZIONE%20EDMUND%20MACH%20-%20ISTITUTO%20AGRARIO%20SAN%20MICHELE%20ALL%27ADIGE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/FONDAZIONE%20EDMUND%20MACH%20-%20ISTITUTO%20AGRARIO%20SAN%20MICHELE%20ALL%27ADIGE> <http://www.co-ode.org/ontologies/ont.owl#has_email> "amministrazione.cif@pec.iasma.it" .
+<http://localhost:8080/source/DAL%20RI%20MARCO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/FONDAZIONE%20EDMUND%20MACH%20-%20ISTITUTO%20AGRARIO%20SAN%20MICHELE%20ALL%27ADIGE> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/615273" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/FONDAZIONE%20EDMUND%20MACH%20-%20ISTITUTO%20AGRARIO%20SAN%20MICHELE%20ALL%27ADIGE> .
+<http://localhost:8080/source/FONDAZIONE%20EDMUND%20MACH%20-%20ISTITUTO%20AGRARIO%20SAN%20MICHELE%20ALL%27ADIGE> <http://www.co-ode.org/ontologies/ont.owl#has_name> "FONDAZIONE EDMUND MACH - ISTITUTO AGRARIO SAN MICHELE ALL'ADIGE" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/DAL%20RI%20MARCO> .
+
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/PARIS%20ALBERTO> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20DEL%20CHIESE%20"Don%20L.%20Milani"> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA G.PAPALEONI" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20DEL%20CHIESE%20"Don%20L.%20Milani"> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20DEL%20CHIESE%20"Don%20L.%20Milani"> <http://www.co-ode.org/ontologies/ont.owl#has_email> "ic.chiese-storo@pec.provincia.tn.it" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20DEL%20CHIESE%20"Don%20L.%20Milani"> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0465/687076" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20DEL%20CHIESE%20"Don%20L.%20Milani"> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO COMPRENSIVO DEL CHIESE \"Don L. Milani\"" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20DEL%20CHIESE%20"Don%20L.%20Milani"> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20DEL%20CHIESE%20"Don%20L.%20Milani"> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0465/686039" .
+<http://localhost:8080/source/PARIS%20ALBERTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20STRIGNO%20E%20TESINO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO COMPRENSIVO STRIGNO E TESINO" .
+<http://localhost:8080/source/ZANON%20ANTONELLA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20STRIGNO%20E%20TESINO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "ic.strignotesino@pec.provincia.tn.it" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20STRIGNO%20E%20TESINO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA ROMA" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20STRIGNO%20E%20TESINO> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20STRIGNO%20E%20TESINO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20STRIGNO%20E%20TESINO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/762046" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20STRIGNO%20E%20TESINO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/763409" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/ZANON%20ANTONELLA> .
+
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TAIO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TAIO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA DEGLI ALPINI" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TAIO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0463/468193" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TAIO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO COMPRENSIVO TAIO" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/RUATTI%20CESARE%20MARINO> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TAIO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "ic.taio@pec.provincia.tn.it" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TAIO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0463/467616" .
+<http://localhost:8080/source/RUATTI%20CESARE%20MARINO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TAIO> .
+
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TELVE> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TELVE> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/777347" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TELVE> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO COMPRENSIVO TELVE" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TELVE> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA PER BORGO" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TELVE> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/766072" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TELVE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/LUCCHIARI%20FRANCA> .
+<http://localhost:8080/source/LUCCHIARI%20FRANCA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TESERO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0462/813598" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TESERO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TESERO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA FIA" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TESERO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO COMPRENSIVO TESERO" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TESERO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0462/813119" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TESERO> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/PIZZARDO%20CANDIDA> .
+<http://localhost:8080/source/PIZZARDO%20CANDIDA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TIONE> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0465/324039" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TIONE> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIALE DANTE " .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TIONE> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0465/321053" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TIONE> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TIONE> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO COMPRENSIVO TIONE" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TIONE> <http://www.co-ode.org/ontologies/ont.owl#has_email> "ic.tione@pec.provincia.tn.it" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/CAPRONI%20MAURIZIO> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TIONE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/CAPRONI%20MAURIZIO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/GULLI%20TIZIANA> .
+<http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20"L.%20Guetti"%20-%20TIONE%20DI%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO DI ISTRUZIONE \"L. Guetti\" - TIONE DI TRENTO" .
+<http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20"L.%20Guetti"%20-%20TIONE%20DI%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0465/322811" .
+<http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20"L.%20Guetti"%20-%20TIONE%20DI%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20"L.%20Guetti"%20-%20TIONE%20DI%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA DURONE" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20"L.%20Guetti"%20-%20TIONE%20DI%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "guetti@pec.provincia.tn.it" .
+<http://localhost:8080/source/GULLI%20TIZIANA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20"L.%20Guetti"%20-%20TIONE%20DI%20TRENTO> .
+<http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20"L.%20Guetti"%20-%20TIONE%20DI%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0465/321735" .
+
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20DI%20SCUOLA%20PRIMARIA%20E%20SECONDARIA%20DI%20PRIMIERO> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/NESLER%20ROMANO> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20DI%20SCUOLA%20PRIMARIA%20E%20SECONDARIA%20DI%20PRIMIERO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20DI%20SCUOLA%20PRIMARIA%20E%20SECONDARIA%20DI%20PRIMIERO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0439/762466" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20DI%20SCUOLA%20PRIMARIA%20E%20SECONDARIA%20DI%20PRIMIERO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "ic.primiero@pec.provincia.tn.it" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20DI%20SCUOLA%20PRIMARIA%20E%20SECONDARIA%20DI%20PRIMIERO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0439/62435" .
+<http://localhost:8080/source/NESLER%20ROMANO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20DI%20SCUOLA%20PRIMARIA%20E%20SECONDARIA%20DI%20PRIMIERO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO COMPRENSIVO DI SCUOLA PRIMARIA E SECONDARIA DI PRIMIERO" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20DI%20SCUOLA%20PRIMARIA%20E%20SECONDARIA%20DI%20PRIMIERO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA DELLE FONTI" .
+
+<http://localhost:8080/source/ISTITUTO%20SACRA%20FAMIGLIA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/TONELOTTO%20MARIA> .
+<http://localhost:8080/source/ISTITUTO%20SACRA%20FAMIGLIA> <http://www.co-ode.org/ontologies/ont.owl#has_email> "trentoscuolapssf@pec.it" .
+<http://localhost:8080/source/ISTITUTO%20SACRA%20FAMIGLIA> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA SALUGA" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20SACRA%20FAMIGLIA> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20SACRA%20FAMIGLIA> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO SACRA FAMIGLIA" .
+<http://localhost:8080/source/TONELOTTO%20MARIA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/ISTITUTO%20SACRA%20FAMIGLIA> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/260718" .
+<http://localhost:8080/source/ISTITUTO%20SACRA%20FAMIGLIA> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/265793" .
+
+<http://localhost:8080/source/ISTITUTO%20MARIA%20SS.BAMBINA%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ISTITUTO%20MARIA%20SS.BAMBINA%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA BORSIERI" .
+<http://localhost:8080/source/QUARTI%20MARISA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20MARIA%20SS.BAMBINA%20-%20TRENTO> .
+<http://localhost:8080/source/ISTITUTO%20MARIA%20SS.BAMBINA%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/222217" .
+<http://localhost:8080/source/ISTITUTO%20MARIA%20SS.BAMBINA%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/230489" .
+<http://localhost:8080/source/ISTITUTO%20MARIA%20SS.BAMBINA%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO MARIA SS.BAMBINA - TRENTO" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/QUARTI%20MARISA> .
+
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%201> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/912740" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%201> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%201> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA ZNOJMO" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%201> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/912065" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%201> <http://www.co-ode.org/ontologies/ont.owl#has_email> "ic.trento1@pec.provincia.tn.it" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/CETRANO%20NICOLA> .
+<http://localhost:8080/source/CETRANO%20NICOLA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%201> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO COMPRENSIVO TRENTO 1" .
+
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%202%20"J.%20A.%20Comenius"> <http://www.co-ode.org/ontologies/ont.owl#has_email> "ic.comenius@pec.provincia.tn.it" .
+<http://localhost:8080/source/BOCCARDI%20MARIA%20SILVA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%202%20"J.%20A.%20Comenius"> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%202%20"J.%20A.%20Comenius"> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA PONTE ALTO" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/BOCCARDI%20MARIA%20SILVA> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%202%20"J.%20A.%20Comenius"> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%202%20"J.%20A.%20Comenius"> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO COMPRENSIVO TRENTO 2 \"J. A. Comenius\"" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%202%20"J.%20A.%20Comenius"> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/982113" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%202%20"J.%20A.%20Comenius"> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/237554" .
+
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ALDENO%20MATTARELLO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ALDENO%20MATTARELLO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0464/946007" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ALDENO%20MATTARELLO> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ALDENO%20MATTARELLO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA DELLA TORRE FRANCA" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ALDENO%20MATTARELLO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/945237" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/DECARLI%20ANTONIETTA> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/DECARLI%20ANTONIETTA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ALDENO%20MATTARELLO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO COMPRENSIVO ALDENO MATTARELLO" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20ALDENO%20MATTARELLO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "ic.aldeno-mattarello@pec.provincia.tn.it" .
+
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%204> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/920316" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/MATTIVI%20VIGILIO> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%204> <http://www.co-ode.org/ontologies/ont.owl#has_address> "PIAZZALE EUROPA" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%204> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/922030" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%204> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%204> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO COMPRENSIVO TRENTO 4" .
+<http://localhost:8080/source/MATTIVI%20VIGILIO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%204> <http://www.co-ode.org/ontologies/ont.owl#has_email> "ic.trento4@pec.provincia.tn.it" .
+
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%205> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/263951" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%205> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/263331" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/ROSA%20MICHELE> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%205> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA SAN G.BOSCO" .
+<http://localhost:8080/source/ROSA%20MICHELE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%205> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%205> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO COMPRENSIVO TRENTO 5" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%205> <http://www.co-ode.org/ontologies/ont.owl#has_email> "ic.tn5@pec.provincia.tn.it" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%205> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%206> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/PASQUALIN%20PAOLA> .
+<http://localhost:8080/source/PASQUALIN%20PAOLA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%206> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/236214" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%206> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%206> <http://www.co-ode.org/ontologies/ont.owl#has_email> "ic.trento6@pec.provincia.tn.it" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%206> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO COMPRENSIVO TRENTO 6" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%206> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/230583" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%206> <http://www.co-ode.org/ontologies/ont.owl#has_address> "CORSO M.BUONARROTI" .
+
+<http://localhost:8080/source/KIRCHNER%20%20STEFANO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%207> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO COMPRENSIVO TRENTO 7" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%207> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/994418" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%207> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%207> <http://www.co-ode.org/ontologies/ont.owl#has_email> "ic.trento7@pec.provincia.tn.it" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%207> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/990287" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%207> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA 4 NOVEMBRE" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/KIRCHNER%20%20STEFANO> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%207> .
+
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%203> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/934977" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%203> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO COMPRENSIVO TRENTO 3" .
+<http://localhost:8080/source/MARTINELLI%20MARINA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%203> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/920605" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%203> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA VITTORIO VENETO" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/MARTINELLI%20MARINA> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%203> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%203> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TRENTO%203> <http://www.co-ode.org/ontologies/ont.owl#has_email> "ic.trento3@pec.provincia.tn.it" .
+
+<http://localhost:8080/source/ASSOCIAZIONE%20PEDAGOGICA%20STEINERIANA%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "associazione@pec.scuolasteiner-trento.it" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/RAIMONDO%20LEO> .
+<http://localhost:8080/source/ASSOCIAZIONE%20PEDAGOGICA%20STEINERIANA%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/930658" .
+<http://localhost:8080/source/ASSOCIAZIONE%20PEDAGOGICA%20STEINERIANA%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/395742" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ASSOCIAZIONE%20PEDAGOGICA%20STEINERIANA%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ASSOCIAZIONE PEDAGOGICA STEINERIANA - TRENTO" .
+<http://localhost:8080/source/ASSOCIAZIONE%20PEDAGOGICA%20STEINERIANA%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA E.CONCI" .
+<http://localhost:8080/source/ASSOCIAZIONE%20PEDAGOGICA%20STEINERIANA%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/RAIMONDO%20LEO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ASSOCIAZIONE%20PEDAGOGICA%20STEINERIANA%20-%20TRENTO> .
+
+<http://localhost:8080/source/POIAN%20MARINA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/ISTITUTO%20PROF.SERVIZI%20COMM.E%20TURISTICI%20"L.Battisti"%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ISTITUTO%20PROF.SERVIZI%20COMM.E%20TURISTICI%20"L.Battisti"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/915472" .
+<http://localhost:8080/source/ISTITUTO%20PROF.SERVIZI%20COMM.E%20TURISTICI%20"L.Battisti"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/914499" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20PROF.SERVIZI%20COMM.E%20TURISTICI%20"L.Battisti"%20-%20TRENTO> .
+<http://localhost:8080/source/ISTITUTO%20PROF.SERVIZI%20COMM.E%20TURISTICI%20"L.Battisti"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO PROF.SERVIZI COMM.E TURISTICI \"L.Battisti\" - TRENTO" .
+<http://localhost:8080/source/ISTITUTO%20PROF.SERVIZI%20COMM.E%20TURISTICI%20"L.Battisti"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA P.A.MATTIOLI" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/POIAN%20MARINA> .
+
+<http://localhost:8080/source/DALVIT%20PAOLO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"M.%20Buonarroti"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/984216" .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"M.%20Buonarroti"%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"M.%20Buonarroti"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO TECNICO TECNOLOGICO \"M. Buonarroti\" - TRENTO" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/DALVIT%20PAOLO> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"M.%20Buonarroti"%20-%20TRENTO> .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"M.%20Buonarroti"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA BRIGATA ACQUI" .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"M.%20Buonarroti"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "buonarroti@pec.provincia.tn.it" .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"M.%20Buonarroti"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/216800" .
+
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20COMMERCIALE%20"A.Tambosi"%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20COMMERCIALE%20"A.Tambosi"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/230175" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/CARAMPIN%20FRANCESCA> .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20COMMERCIALE%20"A.Tambosi"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/239955" .
+<http://localhost:8080/source/CARAMPIN%20FRANCESCA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20COMMERCIALE%20"A.Tambosi"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA BRIGATA ACQUI" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20TECNICO%20COMMERCIALE%20"A.Tambosi"%20-%20TRENTO> .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20COMMERCIALE%20"A.Tambosi"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO TECNICO COMMERCIALE \"A.Tambosi\" - TRENTO" .
+
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"A.Pozzo"%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/MASSIMO%20ELINA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"A.Pozzo"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/985565" .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"A.Pozzo"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO TECNICO TECNOLOGICO \"A.Pozzo\" - TRENTO" .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"A.Pozzo"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/239777" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"A.Pozzo"%20-%20TRENTO> .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"A.Pozzo"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA BARBACOVI" .
+<http://localhost:8080/source/ISTITUTO%20TECNICO%20TECNOLOGICO%20"A.Pozzo"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "pozzo@pec.provincia.tn.it" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/MASSIMO%20ELINA> .
+
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/LICEO%20"A.%20Rosmini"%20-%20TRENTO> .
+<http://localhost:8080/source/LICEO%20"A.%20Rosmini"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "LICEO \"A. Rosmini\" - TRENTO" .
+<http://localhost:8080/source/LICEO%20"A.%20Rosmini"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "rosmini.trento@pec.provincia.tn.it" .
+<http://localhost:8080/source/CAROLLO%20MATILDE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/LICEO%20"A.%20Rosmini"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/914400" .
+<http://localhost:8080/source/LICEO%20"A.%20Rosmini"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA B.MALFATTI" .
+<http://localhost:8080/source/LICEO%20"A.%20Rosmini"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/914498" .
+<http://localhost:8080/source/LICEO%20"A.%20Rosmini"%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/CAROLLO%20MATILDE> .
+
+<http://localhost:8080/source/DALVIT%20FLAVIO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/LICEO%20SCIENTIFICO%20"G.%20Galilei"%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/LICEO%20SCIENTIFICO%20"G.%20Galilei"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "galilei@pec.provincia.tn.it" .
+<http://localhost:8080/source/LICEO%20SCIENTIFICO%20"G.%20Galilei"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIALE N. BOLOGNINI" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/DALVIT%20FLAVIO> .
+<http://localhost:8080/source/LICEO%20SCIENTIFICO%20"G.%20Galilei"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/913479" .
+<http://localhost:8080/source/LICEO%20SCIENTIFICO%20"G.%20Galilei"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/913367" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/LICEO%20SCIENTIFICO%20"G.%20Galilei"%20-%20TRENTO> .
+<http://localhost:8080/source/LICEO%20SCIENTIFICO%20"G.%20Galilei"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "LICEO SCIENTIFICO \"G. Galilei\" - TRENTO" .
+
+<http://localhost:8080/source/LICEO%20SCIENTIFICO%20"L.%20Da%20Vinci"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/986257" .
+<http://localhost:8080/source/LICEO%20SCIENTIFICO%20"L.%20Da%20Vinci"%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/LICEO%20SCIENTIFICO%20"L.%20Da%20Vinci"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "LICEO SCIENTIFICO \"L. Da Vinci\" - TRENTO" .
+<http://localhost:8080/source/LICEO%20SCIENTIFICO%20"L.%20Da%20Vinci"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA CRISTOFORO MADRUZZO " .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/LICEO%20SCIENTIFICO%20"L.%20Da%20Vinci"%20-%20TRENTO> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/LICEO%20SCIENTIFICO%20"L.%20Da%20Vinci"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/984099" .
+<http://localhost:8080/source/TOMASI%20ALBERTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/LICEO%20SCIENTIFICO%20"L.%20Da%20Vinci"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "davinci@pec.provincia.tn.it" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/TOMASI%20ALBERTO> .
+
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/LICEO%20CLASSICO%20"G.Prati"%20-%20TRENTO> .
+<http://localhost:8080/source/LICEO%20CLASSICO%20"G.Prati"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/980747" .
+<http://localhost:8080/source/LICEO%20CLASSICO%20"G.Prati"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "LICEO CLASSICO \"G.Prati\" - TRENTO" .
+<http://localhost:8080/source/LICEO%20CLASSICO%20"G.Prati"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "prati@pec.provincia.tn.it" .
+<http://localhost:8080/source/LICEO%20CLASSICO%20"G.Prati"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/980190" .
+<http://localhost:8080/source/LICEO%20CLASSICO%20"G.Prati"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA SANTA TRINITA'" .
+<http://localhost:8080/source/PEZZO%20MARIA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/LICEO%20CLASSICO%20"G.Prati"%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/PEZZO%20MARIA> .
+
+<http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20DELLE%20ARTI%20"Vittoria%20Bonporti%20Depero"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO DI ISTRUZIONE DELLE ARTI \"Vittoria Bonporti Depero\" - TRENTO" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/RASERA%20PAOLO> .
+<http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20DELLE%20ARTI%20"Vittoria%20Bonporti%20Depero"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/824345" .
+<http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20DELLE%20ARTI%20"Vittoria%20Bonporti%20Depero"%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20DELLE%20ARTI%20"Vittoria%20Bonporti%20Depero"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/824422" .
+<http://localhost:8080/source/RASERA%20PAOLO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20DELLE%20ARTI%20"Vittoria%20Bonporti%20Depero"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA  V. ZAMBRA" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20DELLE%20ARTI%20"Vittoria%20Bonporti%20Depero"%20-%20TRENTO> .
+<http://localhost:8080/source/ISTITUTO%20DI%20ISTRUZIONE%20DELLE%20ARTI%20"Vittoria%20Bonporti%20Depero"%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "vittoria@pec.provincia.tn.it" .
+
+<http://localhost:8080/source/COLLEGIO%20ARCIVESCOVILE%20C.ENDRICI%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA MONS.C.ENDRICI" .
+<http://localhost:8080/source/COLLEGIO%20ARCIVESCOVILE%20C.ENDRICI%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "collegioarcivescovile@pec.it" .
+<http://localhost:8080/source/COLLEGIO%20ARCIVESCOVILE%20C.ENDRICI%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/1731200" .
+<http://localhost:8080/source/AGOSTINI%20LAMBERTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/COLLEGIO%20ARCIVESCOVILE%20C.ENDRICI%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/1731288" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/COLLEGIO%20ARCIVESCOVILE%20C.ENDRICI%20-%20TRENTO> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/AGOSTINI%20LAMBERTO> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/COLLEGIO%20ARCIVESCOVILE%20C.ENDRICI%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/COLLEGIO%20ARCIVESCOVILE%20C.ENDRICI%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "COLLEGIO ARCIVESCOVILE C.ENDRICI - TRENTO" .
+
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/DONATINI%20DARIO> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20SACRO%20CUORE%20-%20TRENTO> .
+<http://localhost:8080/source/ISTITUTO%20SACRO%20CUORE%20-%20TRENTO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20SACRO%20CUORE%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/981465" .
+<http://localhost:8080/source/ISTITUTO%20SACRO%20CUORE%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/982734" .
+<http://localhost:8080/source/ISTITUTO%20SACRO%20CUORE%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO SACRO CUORE - TRENTO" .
+<http://localhost:8080/source/ISTITUTO%20SACRO%20CUORE%20-%20TRENTO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "PIAZZA SANTA T.VERZERI" .
+<http://localhost:8080/source/DONATINI%20DARIO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/PEGORETTI%20PIERA> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TUENNO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "ic.tuenno@pec.provincia.tn.it" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TUENNO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO COMPRENSIVO TUENNO" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TUENNO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0463/451531" .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/PEGORETTI%20PIERA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TUENNO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA V.MAISTRELLI" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TUENNO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TUENNO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0463/451531" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20TUENNO> .
+
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VEZZANO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA D. ALIGHIERI" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VEZZANO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ANTONIOL%20ROSANNA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/ANTONIOL%20ROSANNA> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VEZZANO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/864026" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VEZZANO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO COMPRENSIVO VEZZANO" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VEZZANO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/864026" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VEZZANO> .
+
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VIGOLO%20VATTARO> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0461/848878" .
+<http://localhost:8080/source/TURRINI%20SARA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VIGOLO%20VATTARO> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0461/845217" .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VIGOLO%20VATTARO> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VIGOLO%20VATTARO> <http://www.co-ode.org/ontologies/ont.owl#has_email> "ic.vigolovattaro@pec.provincia.tn.it" .
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/TURRINI%20SARA> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VIGOLO%20VATTARO> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO COMPRENSIVO VIGOLO VATTARO" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VIGOLO%20VATTARO> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA G. GARIBALDI" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VIGOLO%20VATTARO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+
+_:School1 <http://www.co-ode.org/ontologies/ont.owl#has_responsiblePerson> <http://localhost:8080/source/BROZ%20MANUELA> .
+_:School1 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VILLA%20LAGARINA> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VILLA%20LAGARINA> <http://www.co-ode.org/ontologies/ont.owl#has_name> "ISTITUTO COMPRENSIVO VILLA LAGARINA" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VILLA%20LAGARINA> <http://www.co-ode.org/ontologies/ont.owl#has_phone> "0464/411312" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VILLA%20LAGARINA> <http://www.co-ode.org/ontologies/ont.owl#has_address> "VIA STOCKSTADT AM RHEIN" .
+<http://localhost:8080/source/BROZ%20MANUELA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Director> .
+_:School1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#School> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VILLA%20LAGARINA> <http://www.co-ode.org/ontologies/ont.owl#has_email> "ic.villalagarina@pec.provincia.tn.it" .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VILLA%20LAGARINA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.co-ode.org/ontologies/ont.owl#Educational_Institute> .
+<http://localhost:8080/source/ISTITUTO%20COMPRENSIVO%20VILLA%20LAGARINA> <http://www.co-ode.org/ontologies/ont.owl#has_fax> "0464/411705" .
+
