@@ -59,17 +59,34 @@ From the model, ETG were created that define the conceptual relation of the enti
 [Link of the ETG Folder](https://github.com/alihamzaunitn/kdi-educationtrentino/blob/master/Teleologies/Formal%20Modeling/education%20in%20trentino%20-%20kdi%20project%20ontology%20v2.owl)
 
 
-**Bold** and _Italic_ and `Code` text
+### Knowledge Graph
 
-[Link](url) and ![ER Model](https://github.com/alihamzaunitn/kdi-educationtrentino/blob/master/Documentation/ERmodel_formalModelingPhaseV2.png)
-```
+The goal of the data integration project was to construct a solution that can answer CQs (competency questions). Unfortunately due to some unforeseen errors, we were not able to explored the final graph in the GrapghDb or any other similar tool for graph exploration. Invalid Base IRI
+error was encountered while importing the files in the GraphDb. We tried to fix the issue by
+redoing the mapping in the karmalinker and again generated the RDF graph files but this did
+not fix the issue. Despite doing the necessary research, we could not track down the issue. As
+result of this we were not able to properly explore the finally produced Knowledge Graph. We
+were able to import only part of graphs in the GraphDB that are also shown in the figures
+below.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+![Graph1](https://github.com/alihamzaunitn/kdi-educationtrentino/blob/master/Documentation/Screenshot%202022-01-09%20022225.png)
+![Graph2](https://github.com/alihamzaunitn/kdi-educationtrentino/blob/master/Documentation/comune%20graph.png)
 
-### Jekyll Themes
+Associated properties to each of the concepts can also be seen on the detailed widget on the
+right side. Despite this major setback, the analysis of the potential usage of the KG can be done on
+the conceptual bases following the modeling/entity matching done in the karmalinker. We tried
+to answer CQs following the incoming/outgoing links and in most of the cases we were able
+to find the desired data. For example, if someone wants to search all schools in Trento, we
+can very well start from the comune data-set looking for Trento comune and then following its
+conceptual link in the schools dataset to find out link of all school that are located in Trento
+comune. All of this reasoning was done manually without use of any tool due to the reason
+mentioned above. A possible solution of this problem could be by making sure that there is no
+entity that is un-mapped or improperly mapped in the karmalinker and then generate the RDF
+graphs. We could not do this as per time limitation and limited availability of the tools involved
+these phases of the project.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/alihamzaunitn/kdi-educationtrentino/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### GITHUB Repository
+All of the mentioned work can be found in the below github respository (master branch).
+[Github Reposity Link - KDI Education In Trentino](https://github.com/alihamzaunitn/kdi-educationtrentino/tree/master)
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
