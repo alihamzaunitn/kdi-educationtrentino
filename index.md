@@ -52,8 +52,7 @@ along the integration process :
 
 Based on the knowledge and data resources collected,follwing was the ER modelthat was created on the knowledge level which was later modified and also mapped to the refined datasets using data mapping tools.
 
-![test image](https://www.datapine.com/blog/wp-content/uploads/2016/08/data-interpretation-art.jpg)
-![ER Model](https://github.com/alihamzaunitn/kdi-educationtrentino/blob/master/Documentation/ERmodel_formalModelingPhaseV2.png)
+[Link to ER Model](https://github.com/alihamzaunitn/kdi-educationtrentino/blob/master/Documentation/ERmodel_formalModelingPhaseV2.png)
 
 ### ETG Model
 From the model, ETG were created that define the conceptual relation of the entitites that are involved in the scope of the project. ETG in form of an OWL file that was created using the Protege tool which provides great support in this.
@@ -70,8 +69,8 @@ result of this we were not able to properly explore the finally produced Knowled
 were able to import only part of graphs in the GraphDB that are also shown in the figures
 below.
 
-![Graph1](https://github.com/alihamzaunitn/kdi-educationtrentino/blob/master/Documentation/Screenshot%202022-01-09%20022225.png)
-![Graph2](https://github.com/alihamzaunitn/kdi-educationtrentino/blob/master/Documentation/comune%20graph.png)
+[Sample Graph Image 1](https://github.com/alihamzaunitn/kdi-educationtrentino/blob/master/Documentation/Screenshot%202022-01-09%20022225.png)
+[Sample Graph Image 2](https://github.com/alihamzaunitn/kdi-educationtrentino/blob/master/Documentation/comune%20graph.png)
 
 Associated properties to each of the concepts can also be seen on the detailed widget on the
 right side. Despite this major setback, the analysis of the potential usage of the KG can be done on
@@ -86,8 +85,9 @@ entity that is un-mapped or improperly mapped in the karmalinker and then genera
 graphs. We could not do this as per time limitation and limited availability of the tools involved
 these phases of the project.
 
+Final outout of the graphs can be found in the folder following the link given below.
+[RDF Graph Outputs Folder](https://github.com/alihamzaunitn/kdi-educationtrentino/tree/master/Teleologies/Data%20Integration)
+
 ### GITHUB Repository
 All of the mentioned work can be found in the below github respository (master branch).
 [Github Reposity Link - KDI Education In Trentino](https://github.com/alihamzaunitn/kdi-educationtrentino/tree/master)
-
-
