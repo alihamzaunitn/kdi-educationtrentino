@@ -1,7 +1,8 @@
 ## Education In Trentino - Data Integration
 
-Reusability has a vital role in the Data Integration process defined by the ITelos methodology. This project is about the inegration of multiple hetegenious data sources following the standard Data Integration tools and technologies in order to produce useful expolitable knowledge graph maximizing the reuseability of the resources used. In the followingsections, you can find the details of the resources used including the breif description of each of them and links to the resources
+Reusability has a vital role in the Data Integration process defined by the ITelos methodology. This project is about the inegration of multiple hetegenious data sources following the standard Data Integration tools and technologies in order to produce useful expolitable knowledge graph maximizing the reuseability of the resources used. In the followingsections, you can find the details of the resources used including the breif description of each of them and links to the resources. 
 
+Scope of the project was a **“A service that will help parent and student to find schools, including details about the school and courses offered, in the region of Trentino based on city, commune, school type, course duration and teaching activities schedules.**
 
 
 ### Datasets
@@ -47,27 +48,20 @@ along the integration process :
 - [https://schema.org/Person](https://schema.org/Person)
 - [https://schema.org/Course](https://schema.org/Course)
 
+### ER Model
 
-### Markdown
+Based on the knowledge and data resources collected,follwing was the ER modelthat was created on the knowledge level which was later modified and also mapped to the refined datasets using data mapping tools.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![ER Model](https://github.com/alihamzaunitn/kdi-educationtrentino/blob/master/Documentation/ERmodel_formalModelingPhaseV2.png)
 
-```markdown
-Syntax highlighted code block
+### ETG Model
+From the model, ETG were created that define the conceptual relation of the entitites that are involved in the scope of the project. ETG in form of an OWL file that was created using the Protege tool which provides great support in this.
+[Link of the ETG Folder](https://github.com/alihamzaunitn/kdi-educationtrentino/blob/master/Teleologies/Formal%20Modeling/education%20in%20trentino%20-%20kdi%20project%20ontology%20v2.owl)
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](url) and ![ER Model](https://github.com/alihamzaunitn/kdi-educationtrentino/blob/master/Documentation/ERmodel_formalModelingPhaseV2.png)
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
