@@ -37,17 +37,16 @@ List of all the communes in the province of Trento was manually downloaded from 
 
 Follwing were the reference teleologies initially collected to satisfy the purpose of the project
 along the integration process :
-• https://schema.org/EducationalOrganization
-• https://schema.org/School
-• https://schema.org/ElementarySchool
-• https://schema.org/HighSchool
-• https://schema.org/MiddleSchool
-• https://schema.org/Preschool
-• https://schema.org/City
-• https://schema.org/Person
-• https://schema.org/Course
+- [https://schema.org/EducationalOrganization](https://schema.org/EducationalOrganization)
+- [https://schema.org/School](https://schema.org/School)
+- [https://schema.org/ElementarySchool](https://schema.org/ElementarySchool)
+- [https://schema.org/HighSchool](https://schema.org/HighSchool)
+- [https://schema.org/MiddleSchool](https://schema.org/MiddleSchool)
+- [https://schema.org/Preschool](https://schema.org/Preschool)
+- [https://schema.org/City](https://schema.org/City)
+- [https://schema.org/Person](https://schema.org/Person)
+- [https://schema.org/Course](https://schema.org/Course)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
